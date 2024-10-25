@@ -40,10 +40,10 @@ This repository contains my machine learning projects and assignments for the Ba
 ### 8. TensorFlow Advanced Techniques (Upcoming Update)
 
 ## Specialization Certificates
-[Mathematics for ML and Data Science](https://coursera.org/share/ca04fdc201680d60d09b6fc1af929231), 
-[Google Data Analytics](https://www.coursera.org/account/accomplishments/professional-cert/4K9UPK7ZFX77), 
-[Machine Learning Specialization](https://coursera.org/share/fa5a67fea09894f41349409b17d4dee9), 
-[DeepLearning.AI TensorFlow Developer](https://coursera.org/share/896bb3a1a5af80a07907191aa7fea30f), 
-[TensorFlow: Data and Deployment](https://coursera.org/share/852d324b25e8c5a62c363677d5b2dda9), 
+[Mathematics for ML and Data Science](https://coursera.org/share/ca04fdc201680d60d09b6fc1af929231) - 
+[Google Data Analytics](https://www.coursera.org/account/accomplishments/professional-cert/4K9UPK7ZFX77) - 
+[Machine Learning Specialization](https://coursera.org/share/fa5a67fea09894f41349409b17d4dee9) - 
+[DeepLearning.AI TensorFlow Developer](https://coursera.org/share/896bb3a1a5af80a07907191aa7fea30f) - 
+[TensorFlow: Data and Deployment](https://coursera.org/share/852d324b25e8c5a62c363677d5b2dda9) - 
 TensorFlow Advanced Techniques (Coming Soon)
 
