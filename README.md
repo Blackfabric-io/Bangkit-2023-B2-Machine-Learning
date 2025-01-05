@@ -1,5 +1,5 @@
 # Machine Learning and Data Science Portfolio
-*A comprehensive collection of projects and assignments from Bangkit Academy 2023*
+*Collection of projects and assignments notes from Bangkit Academy 2023 Experience*
 
 ## 📚 Portfolio Structure
 
