@@ -34,20 +34,20 @@
 - Data Pipeline Optimization
 - Advanced Deployment Scenarios
 
-### 5. Learning Journey
+### 5. Learning
 - Key Concepts Mastered
 - Technical Challenges Overcome
 - Real-world Applications
 - Aerospace Engineering Applications
 
-## 🎯 Key Skills Demonstrated
+## Skills
 - TensorFlow & Keras
 - Data Preprocessing & Analysis
 - Model Development & Optimization
 - Production Deployment
 - Mathematical Foundations
 
-## 📖 Project Documentation Standards
+## Documentation
 Each project includes:
 - Problem Statement
 - Dataset Description
@@ -56,14 +56,6 @@ Each project includes:
 - Results & Analysis
 - Real-world Applications
 - Code Documentation
-
-## 🔒 Usage Rights
-- All code is original work completed as part of Bangkit Academy 2023
-- Datasets used are properly cited and have appropriate usage rights
-- Solutions are shared for educational purposes while respecting academic integrity
-
-## 🏆 Certifications
-*For full certification details, please visit my [LinkedIn Profile]*
 
 ## Links & Certificates
 ### 1. [Mathematics for ML and Data Science](https://www.coursera.org/specializations/mathematics-for-machine-learning-and-data-science)
@@ -102,13 +94,9 @@ Each project includes:
 - [Data Pipelines with TensorFlow Data Services](https://www.coursera.org/account/accomplishments/certificate/P85F6WQVJSAX)
 - [Advanced Deployment Scenarios with TensorFlow](https://www.coursera.org/account/accomplishments/certificate/T5A47V9G5MCX)
 
-### 8. TensorFlow Advanced Techniques (Upcoming Update)
-
 ## Specialization Certificates
 [Mathematics for ML and Data Science](https://coursera.org/share/ca04fdc201680d60d09b6fc1af929231) - 
 [Google Data Analytics](https://www.coursera.org/account/accomplishments/professional-cert/4K9UPK7ZFX77) - 
 [Machine Learning Specialization](https://coursera.org/share/fa5a67fea09894f41349409b17d4dee9) - 
 [DeepLearning.AI TensorFlow Developer](https://coursera.org/share/896bb3a1a5af80a07907191aa7fea30f) - 
 [TensorFlow: Data and Deployment](https://coursera.org/share/852d324b25e8c5a62c363677d5b2dda9) - 
-TensorFlow Advanced Techniques (Coming Soon)
-
