@@ -1,0 +1,699 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Week 4: Predicting the next word",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          36.0,
+          46.22674560546875
+        ],
+        [
+          249.90802001953125,
+          46.22674560546875
+        ],
+        [
+          249.90802001953125,
+          60.288330078125
+        ],
+        [
+          36.0,
+          60.288330078125
+        ]
+      ]
+    },
+    {
+      "title": "Tokenizing the text",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          36.0,
+          698.0800170898438
+        ],
+        [
+          153.90879821777344,
+          698.0800170898438
+        ],
+        [
+          153.90879821777344,
+          710.4758453369141
+        ],
+        [
+          36.0,
+          710.4758453369141
+        ]
+      ]
+    },
+    {
+      "title": "Generating n_grams",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          36.0,
+          60.079833984375
+        ],
+        [
+          162.2928924560547,
+          60.0767822265625
+        ],
+        [
+          162.2928924560547,
+          72.47564697265625
+        ],
+        [
+          36.0,
+          72.6163330078125
+        ]
+      ]
+    },
+    {
+      "title": "[[34, 417],",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          44.2327880859375,
+          601.1271362304688
+        ],
+        [
+          86.55508422851562,
+          601.1271362304688
+        ],
+        [
+          86.55508422851562,
+          609.7099609375
+        ],
+        [
+          44.2327880859375,
+          609.7099609375
+        ]
+      ]
+    },
+    {
+      "title": "Expected Output:",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          41.0,
+          174.11474609375
+        ],
+        [
+          104.91999816894531,
+          174.11474609375
+        ],
+        [
+          104.91999816894531,
+          183.74676513671875
+        ],
+        [
+          41.0,
+          183.74676513671875
+        ]
+      ]
+    },
+    {
+      "title": "n_grams of input_sequences have length: 15462\nmaximum length of sequences is: 11",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          57.5244140625,
+          593.0770874023438
+        ],
+        [
+          236.27806091308594,
+          593.0770874023438
+        ],
+        [
+          236.27806091308594,
+          608.5770874023438
+        ],
+        [
+          57.5244140625,
+          608.5770874023438
+        ]
+      ]
+    },
+    {
+      "title": "Expected Output:",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          40.6011962890625,
+          627.2467498779297
+        ],
+        [
+          104.91999816894531,
+          627.2467498779297
+        ],
+        [
+          104.91999816894531,
+          636.43359375
+        ],
+        [
+          40.6011962890625,
+          636.43359375
+        ]
+      ]
+    },
+    {
+      "title": "Add padding to the sequences",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          36.0,
+          702.580078125
+        ],
+        [
+          214.70864868164062,
+          702.580078125
+        ],
+        [
+          214.70864868164062,
+          715.37109375
+        ],
+        [
+          36.0,
+          715.37109375
+        ]
+      ]
+    },
+    {
+      "title": "Expected Output:",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          40.1654052734375,
+          308.349609375
+        ],
+        [
+          104.91999816894531,
+          308.349609375
+        ],
+        [
+          104.91999816894531,
+          317.24652099609375
+        ],
+        [
+          40.1654052734375,
+          317.24652099609375
+        ]
+      ]
+    },
+    {
+      "title": "# grader-required-cell",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          39.91119384765625,
+          415.244140625
+        ],
+        [
+          128.38900756835938,
+          415.244140625
+        ],
+        [
+          128.38900756835938,
+          422.64453125
+        ],
+        [
+          39.91119384765625,
+          422.64453125
+        ]
+      ]
+    },
+    {
+      "title": "Expected Output:",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          41.0,
+          652.056640625
+        ],
+        [
+          104.91999816894531,
+          652.056640625
+        ],
+        [
+          104.91999816894531,
+          661.2465057373047
+        ],
+        [
+          41.0,
+          661.2465057373047
+        ]
+      ]
+    },
+    {
+      "title": "Expected Output:",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          40.38330078125,
+          221.6005859375
+        ],
+        [
+          104.91999816894531,
+          221.6005859375
+        ],
+        [
+          104.91999816894531,
+          230.6455078125
+        ],
+        [
+          40.38330078125,
+          230.6455078125
+        ]
+      ]
+    },
+    {
+      "title": "Split the data into features and labels",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          36.0,
+          286.07958984375
+        ],
+        [
+          249.29457092285156,
+          285.94287109375
+        ],
+        [
+          249.29457092285156,
+          298.47540283203125
+        ],
+        [
+          36.0,
+          299.09912109375
+        ]
+      ]
+    },
+    {
+      "title": "Expected Output:",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          41.0,
+          34.66363525390625
+        ],
+        [
+          104.91999816894531,
+          34.66363525390625
+        ],
+        [
+          104.91999816894531,
+          43.74627685546875
+        ],
+        [
+          41.0,
+          43.74627685546875
+        ]
+      ]
+    },
+    {
+      "title": "Expected Output:",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          40.96435546875,
+          295.6044921875
+        ],
+        [
+          104.91999816894531,
+          295.6044921875
+        ],
+        [
+          104.91999816894531,
+          304.24627685546875
+        ],
+        [
+          40.96435546875,
+          304.24627685546875
+        ]
+      ]
+    },
+    {
+      "title": "Create the model",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          36.0,
+          371.04736328125
+        ],
+        [
+          144.0217742919922,
+          371.04736328125
+        ],
+        [
+          144.0217742919922,
+          383.57958984375
+        ],
+        [
+          36.0,
+          383.57958984375
+        ]
+      ]
+    },
+    {
+      "title": "# grader-required-cell",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          39.4390869140625,
+          498.29296875
+        ],
+        [
+          128.38900756835938,
+          498.29296875
+        ],
+        [
+          128.38900756835938,
+          506.515625
+        ],
+        [
+          39.4390869140625,
+          506.515625
+        ]
+      ]
+    },
+    {
+      "title": "See your model in action",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          36.0,
+          654.1123046875
+        ],
+        [
+          185.61993408203125,
+          652.4677734375
+        ],
+        [
+          185.61993408203125,
+          667.07958984375
+        ],
+        [
+          36.0,
+          667.2685546875
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          275
+        ],
+        [
+          "Line",
+          50
+        ],
+        [
+          "Text",
+          20
+        ],
+        [
+          "SectionHeader",
+          2
+        ]
+      ]
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          142
+        ],
+        [
+          "Line",
+          65
+        ],
+        [
+          "Text",
+          17
+        ],
+        [
+          "TextInlineMath",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          352
+        ],
+        [
+          "Line",
+          52
+        ],
+        [
+          "Code",
+          5
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          364
+        ],
+        [
+          "Line",
+          55
+        ],
+        [
+          "Code",
+          5
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          4
+        ]
+      ]
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          535
+        ],
+        [
+          "Line",
+          63
+        ],
+        [
+          "Text",
+          12
+        ],
+        [
+          "Table",
+          4
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "TextInlineMath",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          406
+        ],
+        [
+          "Line",
+          52
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "Code",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ]
+      ]
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          314
+        ],
+        [
+          "Line",
+          49
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "Code",
+          5
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          234
+        ],
+        [
+          "Line",
+          75
+        ],
+        [
+          "Code",
+          6
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "Table",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          105
+        ],
+        [
+          "Line",
+          19
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "Code",
+          3
+        ],
+        [
+          "Figure",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Text",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          87
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "Line",
+          7
+        ]
+      ]
+    }
+  ],
+  "debug_data_path": "debug_data\\C3W4_Assignment"
+}

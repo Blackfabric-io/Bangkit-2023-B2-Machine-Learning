@@ -1,0 +1,856 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Week 3: Exploring Overfitting in NLP",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          70.6728515625,
+          96.5830078125
+        ],
+        [
+          427.949951171875,
+          96.5830078125
+        ],
+        [
+          427.949951171875,
+          122.8798828125
+        ],
+        [
+          70.6728515625,
+          122.8798828125
+        ]
+      ]
+    },
+    {
+      "title": "# grader-required-cell",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          70.934326171875,
+          472.95703125
+        ],
+        [
+          217.7840118408203,
+          472.95703125
+        ],
+        [
+          217.7840118408203,
+          487.65234375
+        ],
+        [
+          70.934326171875,
+          487.65234375
+        ]
+      ]
+    },
+    {
+      "title": "Defining some useful global variables",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          71.8681640625,
+          630.3515625
+        ],
+        [
+          371.7421875,
+          630.3515625
+        ],
+        [
+          371.7421875,
+          651.234375
+        ],
+        [
+          71.8681640625,
+          651.234375
+        ]
+      ]
+    },
+    {
+      "title": "Explore the dataset",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          71.419921875,
+          457.875
+        ],
+        [
+          228.7529296875,
+          457.875
+        ],
+        [
+          228.7529296875,
+          477.2109375
+        ],
+        [
+          71.419921875,
+          477.2109375
+        ]
+      ]
+    },
+    {
+      "title": "Notice that this file does not have a header so you won't need to skip the first row when \nparsing the file.",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          70.822265625,
+          390.392578125
+        ],
+        [
+          510.697265625,
+          390.392578125
+        ],
+        [
+          510.697265625,
+          416.49609375
+        ],
+        [
+          70.822265625,
+          416.49609375
+        ]
+      ]
+    },
+    {
+      "title": "Parsing the raw data",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          70.89697265625,
+          463.67578125
+        ],
+        [
+          235.4765625,
+          463.67578125
+        ],
+        [
+          235.4765625,
+          483.78515625
+        ],
+        [
+          70.89697265625,
+          483.78515625
+        ]
+      ]
+    },
+    {
+      "title": "Expected Output:",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          71.009033203125,
+          180.791015625
+        ],
+        [
+          160.7630615234375,
+          180.791015625
+        ],
+        [
+          160.7630615234375,
+          193.359375
+        ],
+        [
+          71.009033203125,
+          193.359375
+        ]
+      ]
+    },
+    {
+      "title": "Training - Validation Split",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          71.8681640625,
+          73.669921875
+        ],
+        [
+          274.7724609375,
+          73.669921875
+        ],
+        [
+          274.7724609375,
+          93.8759765625
+        ],
+        [
+          71.8681640625,
+          93.8759765625
+        ]
+      ]
+    },
+    {
+      "title": "Expected Output:",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          71.5693359375,
+          215.208984375
+        ],
+        [
+          161.5166015625,
+          215.208984375
+        ],
+        [
+          161.5166015625,
+          227.42596435546875
+        ],
+        [
+          71.5693359375,
+          227.42596435546875
+        ]
+      ]
+    },
+    {
+      "title": "Tokenization - Sequences, truncating and padding",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          71.419921875,
+          346.05499267578125
+        ],
+        [
+          470.953125,
+          346.05499267578125
+        ],
+        [
+          470.953125,
+          364.67578125
+        ],
+        [
+          71.419921875,
+          364.67578125
+        ]
+      ]
+    },
+    {
+      "title": "Expected Output:",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          71.49462890625,
+          455.02099609375
+        ],
+        [
+          160.7630615234375,
+          455.02099609375
+        ],
+        [
+          160.7630615234375,
+          466.76953125
+        ],
+        [
+          71.49462890625,
+          466.76953125
+        ]
+      ]
+    },
+    {
+      "title": "Expected Output:",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          71.5693359375,
+          597.48046875
+        ],
+        [
+          161.666015625,
+          597.48046875
+        ],
+        [
+          161.666015625,
+          609.08203125
+        ],
+        [
+          71.5693359375,
+          609.08203125
+        ]
+      ]
+    },
+    {
+      "title": "Using pre-defined Embeddings",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          70.74755859375,
+          195.29296875
+        ],
+        [
+          375.626953125,
+          195.29296875
+        ],
+        [
+          375.626953125,
+          218.49609375
+        ],
+        [
+          70.74755859375,
+          218.49609375
+        ]
+      ]
+    },
+    {
+      "title": "Represent the words in your vocabulary using the \nembeddings",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          70.822265625,
+          438.15234375
+        ],
+        [
+          467.7040100097656,
+          438.15234375
+        ],
+        [
+          467.7040100097656,
+          479.14453125
+        ],
+        [
+          70.822265625,
+          479.14453125
+        ]
+      ]
+    },
+    {
+      "title": "Define a model that does not overfit",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          71.49462890625,
+          178.9541015625
+        ],
+        [
+          358.892578125,
+          178.9541015625
+        ],
+        [
+          358.892578125,
+          200.70703125
+        ],
+        [
+          71.49462890625,
+          200.70703125
+        ]
+      ]
+    },
+    {
+      "title": "To pass this assignment your val_loss (validation loss) should either be flat or decreasing.",
+      "heading_level": null,
+      "page_id": 14,
+      "polygon": [
+        [
+          70.3740234375,
+          157.8779296875
+        ],
+        [
+          531.2269287109375,
+          157.8779296875
+        ],
+        [
+          531.2269287109375,
+          169.6728515625
+        ],
+        [
+          70.3740234375,
+          169.6728515625
+        ]
+      ]
+    },
+    {
+      "title": "Congratulations on finishing this week's assignment!",
+      "heading_level": null,
+      "page_id": 16,
+      "polygon": [
+        [
+          71.49462890625,
+          647.9891662597656
+        ],
+        [
+          339.169921875,
+          647.9891662597656
+        ],
+        [
+          339.169921875,
+          660.515625
+        ],
+        [
+          71.49462890625,
+          660.515625
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          84
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Code",
+          1
+        ],
+        [
+          "ListItem",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          105
+        ],
+        [
+          "Line",
+          31
+        ],
+        [
+          "ListItem",
+          12
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Code",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          92
+        ],
+        [
+          "Line",
+          35
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "ListItem",
+          5
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Code",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          90
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "Code",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          65
+        ],
+        [
+          "Line",
+          33
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "TextInlineMath",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          95
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "Code",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          75
+        ],
+        [
+          "Line",
+          36
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Code",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          88
+        ],
+        [
+          "Line",
+          38
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          87
+        ],
+        [
+          "Line",
+          41
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "Code",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          69
+        ],
+        [
+          "Line",
+          31
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "Code",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          86
+        ],
+        [
+          "Line",
+          37
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 11,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          99
+        ],
+        [
+          "Line",
+          33
+        ],
+        [
+          "ListItem",
+          12
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "Code",
+          3
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 12,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          92
+        ],
+        [
+          "Line",
+          44
+        ],
+        [
+          "Text",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 13,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          97
+        ],
+        [
+          "Line",
+          49
+        ],
+        [
+          "Text",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 14,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          70
+        ],
+        [
+          "Line",
+          30
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "Code",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 15,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          27
+        ],
+        [
+          "Line",
+          14
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "Code",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 16,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          41
+        ],
+        [
+          "Line",
+          18
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "TextInlineMath",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ]
+    }
+  ],
+  "debug_data_path": "debug_data\\C3W3_Assignment"
+}

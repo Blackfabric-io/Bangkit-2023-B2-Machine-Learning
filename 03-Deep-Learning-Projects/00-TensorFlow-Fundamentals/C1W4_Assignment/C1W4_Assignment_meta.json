@@ -1,0 +1,426 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Week 4: Handling Complex Images - Happy or \nSad Dataset",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          70.6728515625,
+          97.50146484375
+        ],
+        [
+          524.6840209960938,
+          97.50146484375
+        ],
+        [
+          524.6840209960938,
+          148.306640625
+        ],
+        [
+          70.6728515625,
+          148.306640625
+        ]
+      ]
+    },
+    {
+      "title": "Load and explore the data",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          70.59814453125,
+          496.16015625
+        ],
+        [
+          278.208984375,
+          496.16015625
+        ],
+        [
+          278.208984375,
+          517.04296875
+        ],
+        [
+          70.59814453125,
+          517.04296875
+        ]
+      ]
+    },
+    {
+      "title": "Defining the callback",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          71.64404296875,
+          108.7646484375
+        ],
+        [
+          240.2578125,
+          108.7646484375
+        ],
+        [
+          240.2578125,
+          130.2275390625
+        ],
+        [
+          71.64404296875,
+          130.2275390625
+        ]
+      ]
+    },
+    {
+      "title": "Pre-processing the data",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          70.89697265625,
+          382.078125
+        ],
+        [
+          263.267578125,
+          382.078125
+        ],
+        [
+          263.267578125,
+          403.34765625
+        ],
+        [
+          70.89697265625,
+          403.34765625
+        ]
+      ]
+    },
+    {
+      "title": "Expected Output:",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          71.233154296875,
+          401.7891540527344
+        ],
+        [
+          160.76953125,
+          401.7891540527344
+        ],
+        [
+          160.76953125,
+          414.5625
+        ],
+        [
+          71.233154296875,
+          414.5625
+        ]
+      ]
+    },
+    {
+      "title": "Creating and training your model",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          70.9716796875,
+          458.45501708984375
+        ],
+        [
+          337.078125,
+          458.45501708984375
+        ],
+        [
+          337.078125,
+          476.82421875
+        ],
+        [
+          70.9716796875,
+          476.82421875
+        ]
+      ]
+    },
+    {
+      "title": "Your model should achieve an accuracy of 99.9% or more before 15 epochs to pass this \nassignment.",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          70.9716796875,
+          522.84375
+        ],
+        [
+          507.41015625,
+          522.84375
+        ],
+        [
+          507.41015625,
+          549.140625
+        ],
+        [
+          70.9716796875,
+          549.140625
+        ]
+      ]
+    },
+    {
+      "title": "Need more help?",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          70.934326171875,
+          649.5050048828125
+        ],
+        [
+          207.8199920654297,
+          649.5050048828125
+        ],
+        [
+          207.8199920654297,
+          668.25
+        ],
+        [
+          70.934326171875,
+          668.25
+        ]
+      ]
+    },
+    {
+      "title": "Congratulations on finishing the last assignment of this course!",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          70.822265625,
+          545.2734375
+        ],
+        [
+          390.8671875,
+          545.2734375
+        ],
+        [
+          390.8671875,
+          558.421875
+        ],
+        [
+          70.822265625,
+          558.421875
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          75
+        ],
+        [
+          "Line",
+          38
+        ],
+        [
+          "Text",
+          12
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "TextInlineMath",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          19
+        ],
+        [
+          "Line",
+          10
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "Picture",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          38
+        ],
+        [
+          "Line",
+          19
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Code",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          95
+        ],
+        [
+          "Line",
+          36
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Code",
+          2
+        ]
+      ]
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          79
+        ],
+        [
+          "Line",
+          34
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "Code",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          99
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "Code",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "TextInlineMath",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          87
+        ],
+        [
+          "Line",
+          38
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "Code",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          67
+        ],
+        [
+          "Line",
+          34
+        ],
+        [
+          "Text",
+          14
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ]
+    }
+  ],
+  "debug_data_path": "debug_data\\C1W4_Assignment"
+}

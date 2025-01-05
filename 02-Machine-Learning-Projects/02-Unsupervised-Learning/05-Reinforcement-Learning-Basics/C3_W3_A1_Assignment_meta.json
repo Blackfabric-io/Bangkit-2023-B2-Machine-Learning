@@ -1,0 +1,1097 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Deep Q-Learning - Lunar Lander",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          71.419921875,
+          96.3896484375
+        ],
+        [
+          386.982421875,
+          96.3896484375
+        ],
+        [
+          386.982421875,
+          122.6865234375
+        ],
+        [
+          71.419921875,
+          122.6865234375
+        ]
+      ]
+    },
+    {
+      "title": "Outline",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          71.531982421875,
+          181.951171875
+        ],
+        [
+          146.2763671875,
+          181.951171875
+        ],
+        [
+          146.2763671875,
+          208.248046875
+        ],
+        [
+          71.531982421875,
+          208.248046875
+        ]
+      ]
+    },
+    {
+      "title": "1 - Import Packages",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          71.34521484375,
+          619.13671875
+        ],
+        [
+          230.09765625,
+          619.13671875
+        ],
+        [
+          230.09765625,
+          640.79296875
+        ],
+        [
+          71.34521484375,
+          640.79296875
+        ]
+      ]
+    },
+    {
+      "title": "2 - Hyperparameters",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          70.89697265625,
+          524.390625
+        ],
+        [
+          239.361328125,
+          524.390625
+        ],
+        [
+          239.361328125,
+          544.5
+        ],
+        [
+          70.89697265625,
+          544.5
+        ]
+      ]
+    },
+    {
+      "title": "3 - The Lunar Lander Environment",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          70.822265625,
+          71.54296875
+        ],
+        [
+          345.146484375,
+          71.54296875
+        ],
+        [
+          345.146484375,
+          93.97265625
+        ],
+        [
+          70.822265625,
+          93.97265625
+        ]
+      ]
+    },
+    {
+      "title": "3.1 Action Space",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          71.94287109375,
+          285.978515625
+        ],
+        [
+          180.4921875,
+          284.431640625
+        ],
+        [
+          180.4921875,
+          302.6625061035156
+        ],
+        [
+          71.94287109375,
+          303.767578125
+        ]
+      ]
+    },
+    {
+      "title": "3.2 Observation Space",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          71.681396484375,
+          520.13671875
+        ],
+        [
+          221.73046875,
+          520.13671875
+        ],
+        [
+          221.73046875,
+          537.92578125
+        ],
+        [
+          71.681396484375,
+          537.92578125
+        ]
+      ]
+    },
+    {
+      "title": "3.3 Rewards",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          71.382568359375,
+          71.10791015625
+        ],
+        [
+          155.98828125,
+          71.10791015625
+        ],
+        [
+          155.98828125,
+          90.34716796875
+        ],
+        [
+          71.382568359375,
+          90.34716796875
+        ]
+      ]
+    },
+    {
+      "title": "3.4 Episode Termination",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          71.419921875,
+          312.275390625
+        ],
+        [
+          235.4765625,
+          312.275390625
+        ],
+        [
+          235.4765625,
+          330.837890625
+        ],
+        [
+          71.419921875,
+          330.837890625
+        ]
+      ]
+    },
+    {
+      "title": "4 - Load the Environment",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          71.8681640625,
+          483.78515625
+        ],
+        [
+          275.9677734375,
+          483.78515625
+        ],
+        [
+          275.9677734375,
+          505.44140625
+        ],
+        [
+          71.8681640625,
+          505.44140625
+        ]
+      ]
+    },
+    {
+      "title": "5 - Interacting with the Gym Environment",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          71.2705078125,
+          585.4921875
+        ],
+        [
+          402.20196533203125,
+          585.4921875
+        ],
+        [
+          402.20196533203125,
+          604.9049987792969
+        ],
+        [
+          71.2705078125,
+          604.9049987792969
+        ]
+      ]
+    },
+    {
+      "title": "5.1 Exploring the Environment's Dynamics",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          72.017578125,
+          96.29296875
+        ],
+        [
+          352.01953125,
+          96.29296875
+        ],
+        [
+          352.01953125,
+          114.08203125
+        ],
+        [
+          72.017578125,
+          114.08203125
+        ]
+      ]
+    },
+    {
+      "title": "6 - Deep Q-Learning",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          71.79345703125,
+          214.10498046875
+        ],
+        [
+          236.07421875,
+          214.10498046875
+        ],
+        [
+          236.07421875,
+          233.578125
+        ],
+        [
+          71.79345703125,
+          233.578125
+        ]
+      ]
+    },
+    {
+      "title": "6.1 Target Network",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          71.083740234375,
+          551.4609375
+        ],
+        [
+          200.6630859375,
+          551.4609375
+        ],
+        [
+          200.6630859375,
+          567.703125
+        ],
+        [
+          71.083740234375,
+          567.703125
+        ]
+      ]
+    },
+    {
+      "title": "Exercise 1",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          71.307861328125,
+          361.1953125
+        ],
+        [
+          136.86328125,
+          361.1953125
+        ],
+        [
+          136.86328125,
+          378.7124938964844
+        ],
+        [
+          71.307861328125,
+          378.7124938964844
+        ]
+      ]
+    },
+    {
+      "title": "6.2 Experience Replay",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          71.19580078125,
+          193.0693359375
+        ],
+        [
+          217.01499938964844,
+          193.0693359375
+        ],
+        [
+          217.01499938964844,
+          210.568359375
+        ],
+        [
+          71.19580078125,
+          210.568359375
+        ]
+      ]
+    },
+    {
+      "title": "7 - Deep Q-Learning Algorithm with Experience Replay",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          71.419921875,
+          503.89453125
+        ],
+        [
+          510.3984375,
+          503.89453125
+        ],
+        [
+          510.3984375,
+          525.55078125
+        ],
+        [
+          71.419921875,
+          525.55078125
+        ]
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          72.054931640625,
+          605.6015625
+        ],
+        [
+          140.8974609375,
+          605.6015625
+        ],
+        [
+          140.8974609375,
+          622.6171875
+        ],
+        [
+          72.054931640625,
+          622.6171875
+        ]
+      ]
+    },
+    {
+      "title": "8 - Update the Network Weights",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          71.2705078125,
+          462.515625
+        ],
+        [
+          330.4539794921875,
+          462.515625
+        ],
+        [
+          330.4539794921875,
+          481.8515625
+        ],
+        [
+          71.2705078125,
+          481.8515625
+        ]
+      ]
+    },
+    {
+      "title": "9 - Train the Agent",
+      "heading_level": null,
+      "page_id": 13,
+      "polygon": [
+        [
+          70.784912109375,
+          396.7734375
+        ],
+        [
+          221.2822265625,
+          396.7734375
+        ],
+        [
+          221.2822265625,
+          416.109375
+        ],
+        [
+          70.784912109375,
+          416.109375
+        ]
+      ]
+    },
+    {
+      "title": "# Plot the total point history along with the moving average\nutils.plot_history(total_point_history)",
+      "heading_level": null,
+      "page_id": 17,
+      "polygon": [
+        [
+          69.4775390625,
+          246.7265625
+        ],
+        [
+          472.1484375,
+          245.1796875
+        ],
+        [
+          472.1484375,
+          272.63671875
+        ],
+        [
+          69.4775390625,
+          274.18359375
+        ]
+      ]
+    },
+    {
+      "title": "10 - See the Trained Agent In Action",
+      "heading_level": null,
+      "page_id": 17,
+      "polygon": [
+        [
+          71.34521484375,
+          644.2734375
+        ],
+        [
+          356.501953125,
+          642.7265625
+        ],
+        [
+          356.501953125,
+          663.3050079345703
+        ],
+        [
+          71.34521484375,
+          664.3828125
+        ]
+      ]
+    },
+    {
+      "title": "11 - Congratulations!",
+      "heading_level": null,
+      "page_id": 18,
+      "polygon": [
+        [
+          70.89697265625,
+          407.21484375
+        ],
+        [
+          237.26953125,
+          407.21484375
+        ],
+        [
+          237.26953125,
+          428.0050048828125
+        ],
+        [
+          70.89697265625,
+          428.0050048828125
+        ]
+      ]
+    },
+    {
+      "title": "12 - References",
+      "heading_level": null,
+      "page_id": 18,
+      "polygon": [
+        [
+          70.74755859375,
+          496.16015625
+        ],
+        [
+          194.537109375,
+          496.16015625
+        ],
+        [
+          194.537109375,
+          517.2050170898438
+        ],
+        [
+          70.74755859375,
+          517.2050170898438
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          121
+        ],
+        [
+          "Line",
+          38
+        ],
+        [
+          "ListItem",
+          24
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "ListGroup",
+          2
+        ]
+      ]
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          96
+        ],
+        [
+          "Line",
+          33
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "Code",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          128
+        ],
+        [
+          "Line",
+          30
+        ],
+        [
+          "ListItem",
+          9
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Code",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          86
+        ],
+        [
+          "Line",
+          29
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "ListItem",
+          8
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "ListGroup",
+          2
+        ]
+      ]
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          70
+        ],
+        [
+          "Line",
+          20
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "Code",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          112
+        ],
+        [
+          "Line",
+          35
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "Code",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          199
+        ],
+        [
+          "Line",
+          48
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "TextInlineMath",
+          4
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Equation",
+          2
+        ]
+      ]
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          215
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "TextInlineMath",
+          3
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          86
+        ],
+        [
+          "Line",
+          40
+        ],
+        [
+          "Code",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          98
+        ],
+        [
+          "Line",
+          37
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Code",
+          2
+        ]
+      ]
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          191
+        ],
+        [
+          "Line",
+          48
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "Code",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 11,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          109
+        ],
+        [
+          "Line",
+          44
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "Code",
+          3
+        ]
+      ]
+    },
+    {
+      "page_id": 12,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          116
+        ],
+        [
+          "Line",
+          44
+        ],
+        [
+          "Code",
+          2
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 13,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          116
+        ],
+        [
+          "Line",
+          36
+        ],
+        [
+          "ListItem",
+          5
+        ],
+        [
+          "Code",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 14,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          212
+        ],
+        [
+          "Line",
+          41
+        ],
+        [
+          "ListItem",
+          8
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 15,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          106
+        ],
+        [
+          "Line",
+          40
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "Code",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 16,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          101
+        ],
+        [
+          "Line",
+          45
+        ],
+        [
+          "Code",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 17,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          38
+        ],
+        [
+          "Line",
+          15
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 18,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          73
+        ],
+        [
+          "Line",
+          29
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Code",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ]
+    }
+  ],
+  "debug_data_path": "debug_data\\C3_W3_A1_Assignment"
+}

@@ -1,0 +1,1181 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Single Perceptron Neural Networks for Linear \nRegression",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          70.9716796875,
+          95.326171875
+        ],
+        [
+          519.7120361328125,
+          95.326171875
+        ],
+        [
+          519.7120361328125,
+          149.66015625
+        ],
+        [
+          70.9716796875,
+          149.66015625
+        ]
+      ]
+    },
+    {
+      "title": "After this assignment you will be able to:",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          71.49462890625,
+          193.552734375
+        ],
+        [
+          278.208984375,
+          193.552734375
+        ],
+        [
+          278.208984375,
+          206.701171875
+        ],
+        [
+          71.49462890625,
+          206.701171875
+        ]
+      ]
+    },
+    {
+      "title": "Table of Contents",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          71.19580078125,
+          372.41015625
+        ],
+        [
+          246.234375,
+          372.41015625
+        ],
+        [
+          246.234375,
+          397.546875
+        ],
+        [
+          71.19580078125,
+          397.546875
+        ]
+      ]
+    },
+    {
+      "title": "Packages",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          71.457275390625,
+          72.0263671875
+        ],
+        [
+          148.3681640625,
+          72.0263671875
+        ],
+        [
+          148.3681640625,
+          94.6494140625
+        ],
+        [
+          71.457275390625,
+          94.6494140625
+        ]
+      ]
+    },
+    {
+      "title": "1 - Simple Linear Regression",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          71.419921875,
+          416.49609375
+        ],
+        [
+          297.333984375,
+          416.49609375
+        ],
+        [
+          297.333984375,
+          435.83203125
+        ],
+        [
+          71.419921875,
+          435.83203125
+        ]
+      ]
+    },
+    {
+      "title": "1.1 - Simple Linear Regression Model",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          71.49462890625,
+          530.19140625
+        ],
+        [
+          315.5625,
+          530.19140625
+        ],
+        [
+          315.5625,
+          547.20703125
+        ],
+        [
+          71.49462890625,
+          547.20703125
+        ]
+      ]
+    },
+    {
+      "title": "1.2 - Neural Network Model with a Single Perceptron and One Input \nNode",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          71.12109375,
+          96.82470703125
+        ],
+        [
+          520.780029296875,
+          96.82470703125
+        ],
+        [
+          520.780029296875,
+          131.3876953125
+        ],
+        [
+          71.12109375,
+          131.3876953125
+        ]
+      ]
+    },
+    {
+      "title": "1.3 - Dataset",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          70.859619140625,
+          505.0546875
+        ],
+        [
+          155.98828125,
+          505.0546875
+        ],
+        [
+          155.98828125,
+          520.5234375
+        ],
+        [
+          70.859619140625,
+          520.5234375
+        ]
+      ]
+    },
+    {
+      "title": "Exercise 1",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          71.49462890625,
+          235.705078125
+        ],
+        [
+          137.83447265625,
+          235.705078125
+        ],
+        [
+          137.83447265625,
+          252.333984375
+        ],
+        [
+          71.49462890625,
+          252.333984375
+        ]
+      ]
+    },
+    {
+      "title": "2 - Implementation of the Neural Network Model for \nLinear Regression",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          71.71875,
+          587.8125
+        ],
+        [
+          492.8139343261719,
+          587.8125
+        ],
+        [
+          492.8139343261719,
+          630.3515625
+        ],
+        [
+          71.71875,
+          630.3515625
+        ]
+      ]
+    },
+    {
+      "title": "2.1 - Defining the Neural Network Structure",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          70.89697265625,
+          74.4625244140625
+        ],
+        [
+          360.685546875,
+          73.04150390625
+        ],
+        [
+          360.685546875,
+          89.76708984375
+        ],
+        [
+          70.89697265625,
+          91.31396484375
+        ]
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          71.531982421875,
+          123.943359375
+        ],
+        [
+          139.7021484375,
+          123.943359375
+        ],
+        [
+          139.7021484375,
+          139.66253662109375
+        ],
+        [
+          71.531982421875,
+          139.66253662109375
+        ]
+      ]
+    },
+    {
+      "title": "2.2 - Initialize the Model's Parameters",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          71.34521484375,
+          619.13671875
+        ],
+        [
+          323.9296875,
+          619.13671875
+        ],
+        [
+          323.9296875,
+          636.15234375
+        ],
+        [
+          71.34521484375,
+          636.15234375
+        ]
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          71.71875,
+          669.41015625
+        ],
+        [
+          141.64453125,
+          669.41015625
+        ],
+        [
+          141.64453125,
+          685.65234375
+        ],
+        [
+          71.71875,
+          685.65234375
+        ]
+      ]
+    },
+    {
+      "title": "Instructions:",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          71.8681640625,
+          72.75146484375
+        ],
+        [
+          138.05859375,
+          72.75146484375
+        ],
+        [
+          138.05859375,
+          84.83642578125
+        ],
+        [
+          71.8681640625,
+          84.83642578125
+        ]
+      ]
+    },
+    {
+      "title": "Expected Output",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          71.419921875,
+          546.43359375
+        ],
+        [
+          153.1494140625,
+          546.43359375
+        ],
+        [
+          153.1494140625,
+          558.80859375
+        ],
+        [
+          71.419921875,
+          558.80859375
+        ]
+      ]
+    },
+    {
+      "title": "2.3 - The Loop",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          70.822265625,
+          97.66253662109375
+        ],
+        [
+          166.74609375,
+          97.66253662109375
+        ],
+        [
+          166.74609375,
+          113.888671875
+        ],
+        [
+          70.822265625,
+          113.888671875
+        ]
+      ]
+    },
+    {
+      "title": "Exercise 4",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          71.64404296875,
+          147.862548828125
+        ],
+        [
+          140.22509765625,
+          147.862548828125
+        ],
+        [
+          140.22509765625,
+          162.862548828125
+        ],
+        [
+          71.64404296875,
+          162.862548828125
+        ]
+      ]
+    },
+    {
+      "title": "Instructions:",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          72.09228515625,
+          195.9697265625
+        ],
+        [
+          137.38623046875,
+          195.9697265625
+        ],
+        [
+          137.38623046875,
+          208.0546875
+        ],
+        [
+          72.09228515625,
+          208.0546875
+        ]
+      ]
+    },
+    {
+      "title": "Expected Output",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          71.606689453125,
+          73.74871826171875
+        ],
+        [
+          154.6435546875,
+          73.74871826171875
+        ],
+        [
+          154.6435546875,
+          84.5947265625
+        ],
+        [
+          71.606689453125,
+          84.5947265625
+        ]
+      ]
+    },
+    {
+      "title": "2.4 - Integrate parts 2.1, 2.2 and 2.3 in nn_model()",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          71.71875,
+          265.095703125
+        ],
+        [
+          398.9350891113281,
+          265.095703125
+        ],
+        [
+          398.9350891113281,
+          282.498046875
+        ],
+        [
+          71.71875,
+          282.498046875
+        ]
+      ]
+    },
+    {
+      "title": "Exercise 5",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          71.2705078125,
+          314.982421875
+        ],
+        [
+          139.8515625,
+          314.982421875
+        ],
+        [
+          139.8515625,
+          331.611328125
+        ],
+        [
+          71.2705078125,
+          331.611328125
+        ]
+      ]
+    },
+    {
+      "title": "Expected Output",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          71.756103515625,
+          421.13671875
+        ],
+        [
+          152.64549255371094,
+          421.13671875
+        ],
+        [
+          152.64549255371094,
+          432.73828125
+        ],
+        [
+          71.756103515625,
+          432.73828125
+        ]
+      ]
+    },
+    {
+      "title": "3 - Multiple Linear Regression",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          71.34521484375,
+          469.6549987792969
+        ],
+        [
+          310.482421875,
+          469.6549987792969
+        ],
+        [
+          310.482421875,
+          488.42578125
+        ],
+        [
+          71.34521484375,
+          488.42578125
+        ]
+      ]
+    },
+    {
+      "title": "3.1 - Multipe Linear Regression Model",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          71.419921875,
+          570.41015625
+        ],
+        [
+          322.435546875,
+          570.41015625
+        ],
+        [
+          322.435546875,
+          587.42578125
+        ],
+        [
+          71.419921875,
+          587.42578125
+        ]
+      ]
+    },
+    {
+      "title": "3.2 - Neural Network Model with a Single Perceptron and Two Input \nNodes",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          71.5693359375,
+          132.064453125
+        ],
+        [
+          524.14453125,
+          132.064453125
+        ],
+        [
+          524.14453125,
+          166.095703125
+        ],
+        [
+          71.5693359375,
+          166.095703125
+        ]
+      ]
+    },
+    {
+      "title": "3.3 - Dataset",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          71.606689453125,
+          546.046875
+        ],
+        [
+          158.8271484375,
+          546.046875
+        ],
+        [
+          158.8271484375,
+          562.2890625
+        ],
+        [
+          71.606689453125,
+          562.2890625
+        ]
+      ]
+    },
+    {
+      "title": "3.4 - Performance of the Neural Network Model for Multiple Linear \nRegression",
+      "heading_level": null,
+      "page_id": 13,
+      "polygon": [
+        [
+          71.12109375,
+          546.046875
+        ],
+        [
+          518.0350341796875,
+          546.046875
+        ],
+        [
+          518.0350341796875,
+          583.171875
+        ],
+        [
+          71.12109375,
+          583.171875
+        ]
+      ]
+    },
+    {
+      "title": "Exercise 6",
+      "heading_level": null,
+      "page_id": 14,
+      "polygon": [
+        [
+          71.382568359375,
+          72.94482421875
+        ],
+        [
+          141.345703125,
+          72.94482421875
+        ],
+        [
+          141.345703125,
+          89.96044921875
+        ],
+        [
+          71.382568359375,
+          89.96044921875
+        ]
+      ]
+    },
+    {
+      "title": "Expected Output",
+      "heading_level": null,
+      "page_id": 14,
+      "polygon": [
+        [
+          71.04638671875,
+          281.14453125
+        ],
+        [
+          153.0,
+          281.14453125
+        ],
+        [
+          153.0,
+          294.29296875
+        ],
+        [
+          71.04638671875,
+          294.29296875
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          116
+        ],
+        [
+          "Line",
+          36
+        ],
+        [
+          "ListItem",
+          23
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ]
+      ]
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          132
+        ],
+        [
+          "Line",
+          35
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Code",
+          1
+        ],
+        [
+          "TextInlineMath",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          161
+        ],
+        [
+          "Line",
+          38
+        ],
+        [
+          "Text",
+          12
+        ],
+        [
+          "TextInlineMath",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          181
+        ],
+        [
+          "Line",
+          47
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "ListItem",
+          7
+        ],
+        [
+          "Equation",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Code",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          86
+        ],
+        [
+          "Line",
+          29
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "TextInlineMath",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Code",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          99
+        ],
+        [
+          "Line",
+          33
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "Code",
+          3
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          116
+        ],
+        [
+          "Line",
+          41
+        ],
+        [
+          "ListItem",
+          6
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Code",
+          2
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          130
+        ],
+        [
+          "Line",
+          38
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Code",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          154
+        ],
+        [
+          "Line",
+          46
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Equation",
+          1
+        ],
+        [
+          "Code",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          102
+        ],
+        [
+          "Line",
+          37
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "Code",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ]
+      ]
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          108
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "Code",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 11,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          140
+        ],
+        [
+          "Line",
+          38
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "Code",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Equation",
+          1
+        ],
+        [
+          "TextInlineMath",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 12,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          337
+        ],
+        [
+          "Line",
+          57
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "TextInlineMath",
+          5
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Equation",
+          2
+        ]
+      ]
+    },
+    {
+      "page_id": 13,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          104
+        ],
+        [
+          "Line",
+          33
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "TextInlineMath",
+          5
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 14,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          102
+        ],
+        [
+          "Line",
+          38
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Code",
+          2
+        ],
+        [
+          "TextInlineMath",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 15,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          25
+        ],
+        [
+          "Line",
+          13
+        ],
+        [
+          "Code",
+          1
+        ],
+        [
+          "Text",
+          1
+        ]
+      ]
+    }
+  ],
+  "debug_data_path": "debug_data\\C1_W3_Assignment"
+}

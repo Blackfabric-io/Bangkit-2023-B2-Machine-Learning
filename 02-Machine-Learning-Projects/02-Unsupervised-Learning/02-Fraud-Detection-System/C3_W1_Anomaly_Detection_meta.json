@@ -1,0 +1,666 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Anomaly Detection",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          71.04638671875,
+          97.259765625
+        ],
+        [
+          259.083984375,
+          97.259765625
+        ],
+        [
+          259.083984375,
+          122.009765625
+        ],
+        [
+          71.04638671875,
+          122.009765625
+        ]
+      ]
+    },
+    {
+      "title": "Outline",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          72.017578125,
+          183.0146484375
+        ],
+        [
+          147.62109375,
+          183.0146484375
+        ],
+        [
+          147.62109375,
+          207.4283447265625
+        ],
+        [
+          72.017578125,
+          207.4283447265625
+        ]
+      ]
+    },
+    {
+      "title": "1 - Packages",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          71.12109375,
+          424.23046875
+        ],
+        [
+          170.33203125,
+          424.23046875
+        ],
+        [
+          170.33203125,
+          444.33984375
+        ],
+        [
+          71.12109375,
+          444.33984375
+        ]
+      ]
+    },
+    {
+      "title": "2 - Anomaly detection",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          71.19580078125,
+          653.5546875
+        ],
+        [
+          248.923828125,
+          653.5546875
+        ],
+        [
+          248.923828125,
+          674.1049957275391
+        ],
+        [
+          71.19580078125,
+          674.1049957275391
+        ]
+      ]
+    },
+    {
+      "title": "2.1 Problem Statement",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          70.822265625,
+          71.68798828125
+        ],
+        [
+          225.4658203125,
+          71.68798828125
+        ],
+        [
+          225.4658203125,
+          90.34716796875
+        ],
+        [
+          70.822265625,
+          90.34716796875
+        ]
+      ]
+    },
+    {
+      "title": "2.2 Dataset",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          71.009033203125,
+          416.8828125
+        ],
+        [
+          149.2646484375,
+          416.8828125
+        ],
+        [
+          149.2646484375,
+          436.21875
+        ],
+        [
+          71.009033203125,
+          436.21875
+        ]
+      ]
+    },
+    {
+      "title": "2.3 Gaussian distribution",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          70.59814453125,
+          535.9125061035156
+        ],
+        [
+          236.671875,
+          535.9125061035156
+        ],
+        [
+          236.671875,
+          552.62109375
+        ],
+        [
+          70.59814453125,
+          552.62109375
+        ]
+      ]
+    },
+    {
+      "title": "2.3.1 Estimating parameters for a Gaussian distribution",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          70.822265625,
+          116.982421875
+        ],
+        [
+          439.576171875,
+          116.982421875
+        ],
+        [
+          439.576171875,
+          134.771484375
+        ],
+        [
+          70.822265625,
+          134.771484375
+        ]
+      ]
+    },
+    {
+      "title": "Implementation:",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          71.49462890625,
+          143.47265625
+        ],
+        [
+          157.78125,
+          143.47265625
+        ],
+        [
+          157.78125,
+          156.814453125
+        ],
+        [
+          71.49462890625,
+          156.814453125
+        ]
+      ]
+    },
+    {
+      "title": "Exercise 1",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          71.94287109375,
+          212.115234375
+        ],
+        [
+          137.08740234375,
+          212.115234375
+        ],
+        [
+          137.08740234375,
+          227.9625244140625
+        ],
+        [
+          71.94287109375,
+          227.9625244140625
+        ]
+      ]
+    },
+    {
+      "title": "2.3.2 Selecting the threshold \u03f5",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          70.9716796875,
+          365.44921875
+        ],
+        [
+          271.4853515625,
+          365.44921875
+        ],
+        [
+          271.4853515625,
+          381.69140625
+        ],
+        [
+          70.9716796875,
+          381.69140625
+        ]
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          71.49462890625,
+          73.3798828125
+        ],
+        [
+          140.97216796875,
+          73.3798828125
+        ],
+        [
+          140.97216796875,
+          90.10546875
+        ],
+        [
+          71.49462890625,
+          90.10546875
+        ]
+      ]
+    },
+    {
+      "title": "2.4 High dimensional dataset",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          70.89697265625,
+          72.4130859375
+        ],
+        [
+          267.451171875,
+          72.4130859375
+        ],
+        [
+          267.451171875,
+          89.912109375
+        ],
+        [
+          70.89697265625,
+          89.912109375
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          83
+        ],
+        [
+          "Line",
+          32
+        ],
+        [
+          "ListItem",
+          11
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "ListGroup",
+          2
+        ]
+      ]
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          119
+        ],
+        [
+          "Line",
+          37
+        ],
+        [
+          "ListItem",
+          10
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "ListGroup",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "TextInlineMath",
+          2
+        ]
+      ]
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          83
+        ],
+        [
+          "Line",
+          36
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "Code",
+          3
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          110
+        ],
+        [
+          "Line",
+          34
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "Code",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Equation",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          196
+        ],
+        [
+          "Line",
+          57
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Equation",
+          2
+        ],
+        [
+          "ListItem",
+          1
+        ],
+        [
+          "TextInlineMath",
+          1
+        ],
+        [
+          "Code",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          67
+        ],
+        [
+          "Line",
+          28
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "Code",
+          3
+        ]
+      ]
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          63
+        ],
+        [
+          "Line",
+          17
+        ],
+        [
+          "ListItem",
+          5
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          227
+        ],
+        [
+          "Line",
+          40
+        ],
+        [
+          "ListItem",
+          8
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "Equation",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Code",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          120
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "Code",
+          2
+        ]
+      ]
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          32
+        ],
+        [
+          "Line",
+          15
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "Figure",
+          3
+        ]
+      ]
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          112
+        ],
+        [
+          "Line",
+          37
+        ],
+        [
+          "Text",
+          12
+        ],
+        [
+          "ListItem",
+          7
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 11,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          30
+        ],
+        [
+          "Line",
+          14
+        ],
+        [
+          "Text",
+          5
+        ]
+      ]
+    }
+  ],
+  "debug_data_path": "debug_data\\C3_W1_Anomaly_Detection"
+}

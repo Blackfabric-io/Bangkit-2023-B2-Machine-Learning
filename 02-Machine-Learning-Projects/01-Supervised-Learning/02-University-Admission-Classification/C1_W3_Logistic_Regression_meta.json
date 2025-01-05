@@ -1,0 +1,1680 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Logistic Regression",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          70.6728515625,
+          95.6162109375
+        ],
+        [
+          260.8160095214844,
+          95.6162109375
+        ],
+        [
+          260.8160095214844,
+          123.0732421875
+        ],
+        [
+          70.6728515625,
+          123.0732421875
+        ]
+      ]
+    },
+    {
+      "title": "Outline",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          71.531982421875,
+          168.609375
+        ],
+        [
+          144.65599060058594,
+          168.609375
+        ],
+        [
+          144.65599060058594,
+          194.22833251953125
+        ],
+        [
+          71.531982421875,
+          194.22833251953125
+        ]
+      ]
+    },
+    {
+      "title": "1 - Packages",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          70.59814453125,
+          575.4375
+        ],
+        [
+          171.228515625,
+          575.4375
+        ],
+        [
+          171.228515625,
+          597.8671875
+        ],
+        [
+          70.59814453125,
+          597.8671875
+        ]
+      ]
+    },
+    {
+      "title": "2 - Logistic Regression",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          70.5234375,
+          204.57421875
+        ],
+        [
+          252.509765625,
+          204.57421875
+        ],
+        [
+          252.509765625,
+          225.10498046875
+        ],
+        [
+          70.5234375,
+          225.10498046875
+        ]
+      ]
+    },
+    {
+      "title": "2.1 Problem Statement",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          71.49462890625,
+          294.099609375
+        ],
+        [
+          224.71875,
+          294.099609375
+        ],
+        [
+          224.71875,
+          312.662109375
+        ],
+        [
+          71.49462890625,
+          312.662109375
+        ]
+      ]
+    },
+    {
+      "title": "2.2 Loading and visualizing the data",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          71.2705078125,
+          471.0234375
+        ],
+        [
+          308.390625,
+          471.0234375
+        ],
+        [
+          308.390625,
+          489.5859375
+        ],
+        [
+          71.2705078125,
+          489.5859375
+        ]
+      ]
+    },
+    {
+      "title": "View the variables",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          70.89697265625,
+          670.5703125
+        ],
+        [
+          173.3203125,
+          670.5703125
+        ],
+        [
+          173.3203125,
+          685.265625
+        ],
+        [
+          70.89697265625,
+          685.265625
+        ]
+      ]
+    },
+    {
+      "title": "2.3 Sigmoid function",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          71.04638671875,
+          577.3125
+        ],
+        [
+          209.77734375,
+          577.3125
+        ],
+        [
+          209.77734375,
+          593.61328125
+        ],
+        [
+          71.04638671875,
+          593.61328125
+        ]
+      ]
+    },
+    {
+      "title": "Exercise 1",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          71.94287109375,
+          117.17578125
+        ],
+        [
+          138.28271484375,
+          117.17578125
+        ],
+        [
+          138.28271484375,
+          135.158203125
+        ],
+        [
+          71.94287109375,
+          135.158203125
+        ]
+      ]
+    },
+    {
+      "title": "2.4 Cost function for logistic regression",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          71.19580078125,
+          407.98828125
+        ],
+        [
+          333.193359375,
+          407.98828125
+        ],
+        [
+          333.193359375,
+          423.45703125
+        ],
+        [
+          71.19580078125,
+          423.45703125
+        ]
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          71.12109375,
+          480.3046875
+        ],
+        [
+          140.150390625,
+          480.3046875
+        ],
+        [
+          140.150390625,
+          495.7734375
+        ],
+        [
+          71.12109375,
+          495.7734375
+        ]
+      ]
+    },
+    {
+      "title": "2.5 Gradient for logistic regression",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          71.419921875,
+          453.234375
+        ],
+        [
+          302.115234375,
+          453.234375
+        ],
+        [
+          302.115234375,
+          469.4624938964844
+        ],
+        [
+          71.419921875,
+          469.4624938964844
+        ]
+      ]
+    },
+    {
+      "title": "Exercise 3",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          72.0999984741211,
+          620.68359375
+        ],
+        [
+          141.046875,
+          620.68359375
+        ],
+        [
+          139.8515625,
+          637.69921875
+        ],
+        [
+          71.158447265625,
+          637.69921875
+        ]
+      ]
+    },
+    {
+      "title": "return dj_db, dj_dw",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          72.0999984741211,
+          115.9227294921875
+        ],
+        [
+          226.212890625,
+          115.9227294921875
+        ],
+        [
+          226.212890625,
+          126.9227294921875
+        ],
+        [
+          72.0999984741211,
+          126.9227294921875
+        ]
+      ]
+    },
+    {
+      "title": "Click for hints",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          72.0999984741211,
+          143.9560546875
+        ],
+        [
+          143.138671875,
+          143.9560546875
+        ],
+        [
+          143.138671875,
+          155.33917236328125
+        ],
+        [
+          72.0999984741211,
+          155.33917236328125
+        ]
+      ]
+    },
+    {
+      "title": "2.6 Learning parameters using gradient descent",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          71.8681640625,
+          133.0625
+        ],
+        [
+          388.4765625,
+          133.0625
+        ],
+        [
+          388.4765625,
+          149.3701171875
+        ],
+        [
+          71.8681640625,
+          149.3701171875
+        ]
+      ]
+    },
+    {
+      "title": "2.7 Plotting the decision boundary",
+      "heading_level": null,
+      "page_id": 13,
+      "polygon": [
+        [
+          71.71875,
+          509.36248779296875
+        ],
+        [
+          298.828125,
+          509.36248779296875
+        ],
+        [
+          298.828125,
+          524.390625
+        ],
+        [
+          71.71875,
+          524.390625
+        ]
+      ]
+    },
+    {
+      "title": "2.8 Evaluating logistic regression",
+      "heading_level": null,
+      "page_id": 14,
+      "polygon": [
+        [
+          71.5693359375,
+          372.36248779296875
+        ],
+        [
+          290.9091796875,
+          372.36248779296875
+        ],
+        [
+          290.9091796875,
+          388.65234375
+        ],
+        [
+          71.5693359375,
+          388.65234375
+        ]
+      ]
+    },
+    {
+      "title": "Exercise 4",
+      "heading_level": null,
+      "page_id": 14,
+      "polygon": [
+        [
+          71.5693359375,
+          478.7578125
+        ],
+        [
+          140.748046875,
+          478.7578125
+        ],
+        [
+          140.748046875,
+          495.7734375
+        ],
+        [
+          71.5693359375,
+          495.7734375
+        ]
+      ]
+    },
+    {
+      "title": "Expected output",
+      "heading_level": null,
+      "page_id": 16,
+      "polygon": [
+        [
+          71.531982421875,
+          268.3828125
+        ],
+        [
+          154.40199279785156,
+          268.3828125
+        ],
+        [
+          154.40199279785156,
+          281.14453125
+        ],
+        [
+          71.531982421875,
+          281.14453125
+        ]
+      ]
+    },
+    {
+      "title": "3 - Regularized Logistic Regression",
+      "heading_level": null,
+      "page_id": 16,
+      "polygon": [
+        [
+          71.64404296875,
+          418.04296875
+        ],
+        [
+          351.720703125,
+          418.04296875
+        ],
+        [
+          351.720703125,
+          438.15234375
+        ],
+        [
+          71.64404296875,
+          438.15234375
+        ]
+      ]
+    },
+    {
+      "title": "3.1 Problem Statement",
+      "heading_level": null,
+      "page_id": 16,
+      "polygon": [
+        [
+          71.5693359375,
+          520.5234375
+        ],
+        [
+          226.212890625,
+          520.5234375
+        ],
+        [
+          226.212890625,
+          535.9921875
+        ],
+        [
+          71.5693359375,
+          535.9921875
+        ]
+      ]
+    },
+    {
+      "title": "3.2 Loading and visualizing the data",
+      "heading_level": null,
+      "page_id": 17,
+      "polygon": [
+        [
+          71.34521484375,
+          73.1865234375
+        ],
+        [
+          308.091796875,
+          73.1865234375
+        ],
+        [
+          308.091796875,
+          90.0087890625
+        ],
+        [
+          71.34521484375,
+          90.0087890625
+        ]
+      ]
+    },
+    {
+      "title": "View the variables",
+      "heading_level": null,
+      "page_id": 17,
+      "polygon": [
+        [
+          70.784912109375,
+          284.044921875
+        ],
+        [
+          174.515625,
+          284.044921875
+        ],
+        [
+          174.515625,
+          299.126953125
+        ],
+        [
+          70.784912109375,
+          299.126953125
+        ]
+      ]
+    },
+    {
+      "title": "Visualize your data",
+      "heading_level": null,
+      "page_id": 18,
+      "polygon": [
+        [
+          71.19580078125,
+          132.96044921875
+        ],
+        [
+          175.7109375,
+          132.96044921875
+        ],
+        [
+          175.7109375,
+          145.599609375
+        ],
+        [
+          71.19580078125,
+          145.599609375
+        ]
+      ]
+    },
+    {
+      "title": "3.3 Feature mapping",
+      "heading_level": null,
+      "page_id": 19,
+      "polygon": [
+        [
+          71.94287109375,
+          97.66253662109375
+        ],
+        [
+          210.375,
+          97.66253662109375
+        ],
+        [
+          210.375,
+          113.6953125
+        ],
+        [
+          71.94287109375,
+          113.6953125
+        ]
+      ]
+    },
+    {
+      "title": "1.81563032e-08 2.47750473e-07 3.38066048e-06 4.61305487e-05\n 6.29470940e-04 8.58939846e-03 1.17205992e-01]",
+      "heading_level": null,
+      "page_id": 20,
+      "polygon": [
+        [
+          72.0999984741211,
+          77.58544921875
+        ],
+        [
+          471.55078125,
+          77.58544921875
+        ],
+        [
+          471.55078125,
+          102.47271728515625
+        ],
+        [
+          72.0999984741211,
+          102.47271728515625
+        ]
+      ]
+    },
+    {
+      "title": "3.4 Cost function for regularized logistic regression",
+      "heading_level": null,
+      "page_id": 20,
+      "polygon": [
+        [
+          71.12109375,
+          204.9609375
+        ],
+        [
+          412.3828125,
+          204.9609375
+        ],
+        [
+          412.3828125,
+          221.58984375
+        ],
+        [
+          71.12109375,
+          221.58984375
+        ]
+      ]
+    },
+    {
+      "title": "Exercise 5",
+      "heading_level": null,
+      "page_id": 20,
+      "polygon": [
+        [
+          71.49462890625,
+          503.12109375
+        ],
+        [
+          140.37451171875,
+          503.12109375
+        ],
+        [
+          140.37451171875,
+          518.9624938964844
+        ],
+        [
+          71.49462890625,
+          518.9624938964844
+        ]
+      ]
+    },
+    {
+      "title": "3.5 Gradient for regularized logistic regression",
+      "heading_level": null,
+      "page_id": 22,
+      "polygon": [
+        [
+          71.2705078125,
+          342.86248779296875
+        ],
+        [
+          380.109375,
+          342.86248779296875
+        ],
+        [
+          380.109375,
+          358.875
+        ],
+        [
+          71.2705078125,
+          358.875
+        ]
+      ]
+    },
+    {
+      "title": "Exercise 6",
+      "heading_level": null,
+      "page_id": 23,
+      "polygon": [
+        [
+          72.0999984741211,
+          135.01251220703125
+        ],
+        [
+          142.3916015625,
+          135.01251220703125
+        ],
+        [
+          142.3916015625,
+          150.01251220703125
+        ],
+        [
+          72.0999984741211,
+          150.01251220703125
+        ]
+      ]
+    },
+    {
+      "title": "3.6 Learning parameters using gradient descent",
+      "heading_level": null,
+      "page_id": 24,
+      "polygon": [
+        [
+          71.71875,
+          439.6625061035156
+        ],
+        [
+          390.8671875,
+          439.6625061035156
+        ],
+        [
+          390.8671875,
+          455.16796875
+        ],
+        [
+          71.71875,
+          455.16796875
+        ]
+      ]
+    },
+    {
+      "title": "Note",
+      "heading_level": null,
+      "page_id": 24,
+      "polygon": [
+        [
+          71.531982421875,
+          551.4609375
+        ],
+        [
+          98.38916015625,
+          551.4609375
+        ],
+        [
+          98.38916015625,
+          563.8359375
+        ],
+        [
+          71.531982421875,
+          563.8359375
+        ]
+      ]
+    },
+    {
+      "title": "3.7 Plotting the decision boundary",
+      "heading_level": null,
+      "page_id": 26,
+      "polygon": [
+        [
+          71.8681640625,
+          72.36474609375
+        ],
+        [
+          299.8740234375,
+          72.36474609375
+        ],
+        [
+          299.8740234375,
+          89.96044921875
+        ],
+        [
+          71.8681640625,
+          89.96044921875
+        ]
+      ]
+    },
+    {
+      "title": "3.8 Evaluating regularized logistic regression model",
+      "heading_level": null,
+      "page_id": 26,
+      "polygon": [
+        [
+          72.0999984741211,
+          647.75390625
+        ],
+        [
+          416.56640625,
+          647.75390625
+        ],
+        [
+          416.56640625,
+          664.76953125
+        ],
+        [
+          72.0999984741211,
+          664.76953125
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          113
+        ],
+        [
+          "Line",
+          37
+        ],
+        [
+          "ListItem",
+          22
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "ListGroup",
+          2
+        ]
+      ]
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          93
+        ],
+        [
+          "Line",
+          31
+        ],
+        [
+          "ListItem",
+          9
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Code",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ]
+      ]
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          90
+        ],
+        [
+          "Line",
+          33
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "Code",
+          3
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          70
+        ],
+        [
+          "Line",
+          21
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "Equation",
+          2
+        ],
+        [
+          "Code",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "ListItem",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          118
+        ],
+        [
+          "Line",
+          39
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "ListItem",
+          5
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Equation",
+          1
+        ],
+        [
+          "Code",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          209
+        ],
+        [
+          "Line",
+          48
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "Code",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Equation",
+          2
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          242
+        ],
+        [
+          "Line",
+          54
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Code",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          100
+        ],
+        [
+          "Line",
+          34
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "TextInlineMath",
+          4
+        ],
+        [
+          "SectionHeader",
+          2
+        ]
+      ]
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          240
+        ],
+        [
+          "Line",
+          66
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "Equation",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "Code",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          92
+        ],
+        [
+          "Line",
+          38
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Code",
+          1
+        ],
+        [
+          "TextInlineMath",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          79
+        ],
+        [
+          "Line",
+          35
+        ],
+        [
+          "Code",
+          5
+        ],
+        [
+          "Text",
+          2
+        ]
+      ]
+    },
+    {
+      "page_id": 11,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          108
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Code",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 12,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          111
+        ],
+        [
+          "Line",
+          41
+        ],
+        [
+          "Code",
+          2
+        ],
+        [
+          "Text",
+          2
+        ]
+      ]
+    },
+    {
+      "page_id": 13,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          81
+        ],
+        [
+          "Line",
+          40
+        ],
+        [
+          "Code",
+          2
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 14,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          175
+        ],
+        [
+          "Line",
+          27
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "TextInlineMath",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 15,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          113
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "Code",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 16,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          65
+        ],
+        [
+          "Line",
+          28
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "Code",
+          2
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 17,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          111
+        ],
+        [
+          "Line",
+          35
+        ],
+        [
+          "ListItem",
+          6
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Code",
+          2
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 18,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          43
+        ],
+        [
+          "Line",
+          20
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "Figure",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "TextInlineMath",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 19,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          139
+        ],
+        [
+          "Line",
+          45
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Equation",
+          1
+        ],
+        [
+          "TextInlineMath",
+          1
+        ],
+        [
+          "Code",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 20,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          218
+        ],
+        [
+          "Line",
+          59
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "Equation",
+          4
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "TextInlineMath",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 21,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          105
+        ],
+        [
+          "Line",
+          41
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "Code",
+          2
+        ]
+      ]
+    },
+    {
+      "page_id": 22,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          373
+        ],
+        [
+          "Line",
+          88
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "TextInlineMath",
+          2
+        ],
+        [
+          "Equation",
+          2
+        ],
+        [
+          "Code",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 23,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          136
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "Equation",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Code",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 24,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          92
+        ],
+        [
+          "Line",
+          35
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "Code",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 25,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          83
+        ],
+        [
+          "Line",
+          39
+        ],
+        [
+          "Text",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 26,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          44
+        ],
+        [
+          "Line",
+          17
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 27,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          18
+        ],
+        [
+          "Line",
+          8
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "Code",
+          1
+        ]
+      ]
+    }
+  ],
+  "debug_data_path": "debug_data\\C1_W3_Logistic_Regression"
+}

@@ -1,0 +1,1744 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Probability Distributions",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          71.2705078125,
+          96.05126953125
+        ],
+        [
+          309.5859375,
+          96.05126953125
+        ],
+        [
+          309.5859375,
+          122.8798828125
+        ],
+        [
+          71.2705078125,
+          122.8798828125
+        ]
+      ]
+    },
+    {
+      "title": "Sections",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          71.94287109375,
+          197.1298828125
+        ],
+        [
+          142.16748046875,
+          197.1298828125
+        ],
+        [
+          142.16748046875,
+          215.595703125
+        ],
+        [
+          71.94287109375,
+          215.595703125
+        ]
+      ]
+    },
+    {
+      "title": "Section 1: Generating Data from a Specific \nDistribution",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          71.12109375,
+          491.51953125
+        ],
+        [
+          482.949951171875,
+          491.51953125
+        ],
+        [
+          482.949951171875,
+          543.4783325195312
+        ],
+        [
+          71.12109375,
+          543.4783325195312
+        ]
+      ]
+    },
+    {
+      "title": "Exercise 1: Uniform Generator",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          71.49462890625,
+          597.09375
+        ],
+        [
+          309.884765625,
+          597.09375
+        ],
+        [
+          309.884765625,
+          617.203125
+        ],
+        [
+          71.49462890625,
+          617.203125
+        ]
+      ]
+    },
+    {
+      "title": "Expected Output",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          70.635498046875,
+          641.1796875
+        ],
+        [
+          154.9423828125,
+          641.1796875
+        ],
+        [
+          154.9423828125,
+          653.1487426757812
+        ],
+        [
+          70.635498046875,
+          653.1487426757812
+        ]
+      ]
+    },
+    {
+      "title": "Exercise 2: Gaussian Generator",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          71.64404296875,
+          144.6328125
+        ],
+        [
+          319.1484375,
+          144.6328125
+        ],
+        [
+          319.1484375,
+          164.935546875
+        ],
+        [
+          71.64404296875,
+          164.935546875
+        ]
+      ]
+    },
+    {
+      "title": "2.1 Inverse CDF - Gaussian",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          71.19580078125,
+          223.5234375
+        ],
+        [
+          249.22265625,
+          223.5234375
+        ],
+        [
+          249.22265625,
+          240.92578125
+        ],
+        [
+          71.19580078125,
+          240.92578125
+        ]
+      ]
+    },
+    {
+      "title": "2.2 Gaussian Generator",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          71.12109375,
+          465.7624816894531
+        ],
+        [
+          227.70703125,
+          465.7624816894531
+        ],
+        [
+          227.70703125,
+          480.7624816894531
+        ],
+        [
+          71.12109375,
+          480.7624816894531
+        ]
+      ]
+    },
+    {
+      "title": "# Test your function",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          70.112548828125,
+          138.251953125
+        ],
+        [
+          204.54002380371094,
+          138.251953125
+        ],
+        [
+          204.54002380371094,
+          150.046875
+        ],
+        [
+          70.112548828125,
+          150.046875
+        ]
+      ]
+    },
+    {
+      "title": "Exercise 3: Binomial Generator",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          71.34521484375,
+          514.9550170898438
+        ],
+        [
+          319.74609375,
+          514.9550170898438
+        ],
+        [
+          319.74609375,
+          533.671875
+        ],
+        [
+          71.34521484375,
+          533.671875
+        ]
+      ]
+    },
+    {
+      "title": "3.2 Binomial Generator",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          70.224609375,
+          158.76251220703125
+        ],
+        [
+          225.8499755859375,
+          158.76251220703125
+        ],
+        [
+          225.8499755859375,
+          173.76251220703125
+        ],
+        [
+          70.224609375,
+          173.76251220703125
+        ]
+      ]
+    },
+    {
+      "title": "Section 2: Building a Dog Breed Classifier using \nNaive Bayes",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          71.12109375,
+          356.748046875
+        ],
+        [
+          533.989990234375,
+          356.748046875
+        ],
+        [
+          533.989990234375,
+          410.30859375
+        ],
+        [
+          71.12109375,
+          410.30859375
+        ]
+      ]
+    },
+    {
+      "title": "Section 2.1: Generating the Dataset",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          71.19580078125,
+          496.16015625
+        ],
+        [
+          352.916015625,
+          496.16015625
+        ],
+        [
+          352.916015625,
+          516.26953125
+        ],
+        [
+          71.19580078125,
+          516.26953125
+        ]
+      ]
+    },
+    {
+      "title": "Section 2.2 Brief Recap on Naive Bayes Algorithm",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          69.4775390625,
+          121.05499267578125
+        ],
+        [
+          463.18359375,
+          121.05499267578125
+        ],
+        [
+          463.18359375,
+          139.798828125
+        ],
+        [
+          69.4775390625,
+          139.798828125
+        ]
+      ]
+    },
+    {
+      "title": "Exercise 4: PDF for Distributions",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          71.71875,
+          363.12890625
+        ],
+        [
+          329.607421875,
+          363.12890625
+        ],
+        [
+          329.607421875,
+          382.6549987792969
+        ],
+        [
+          71.71875,
+          382.6549987792969
+        ]
+      ]
+    },
+    {
+      "title": "4.1 Uniform PDF",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          71.830810546875,
+          505.0546875
+        ],
+        [
+          181.388671875,
+          505.0546875
+        ],
+        [
+          181.388671875,
+          521.5625
+        ],
+        [
+          71.830810546875,
+          521.5625
+        ]
+      ]
+    },
+    {
+      "title": "Expected Output",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          70.9716796875,
+          481.8515625
+        ],
+        [
+          153.0,
+          481.8515625
+        ],
+        [
+          153.0,
+          493.453125
+        ],
+        [
+          70.9716796875,
+          493.453125
+        ]
+      ]
+    },
+    {
+      "title": "4.2 Gaussian PDF",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          71.12109375,
+          567.0124969482422
+        ],
+        [
+          188.4111328125,
+          567.0124969482422
+        ],
+        [
+          188.4111328125,
+          582.0124969482422
+        ],
+        [
+          71.12109375,
+          582.0124969482422
+        ]
+      ]
+    },
+    {
+      "title": "4.3 Binomial Probability Mass Function (PMF)",
+      "heading_level": null,
+      "page_id": 13,
+      "polygon": [
+        [
+          71.34521484375,
+          628.7124938964844
+        ],
+        [
+          374.431640625,
+          628.7124938964844
+        ],
+        [
+          374.431640625,
+          644.2734375
+        ],
+        [
+          71.34521484375,
+          644.2734375
+        ]
+      ]
+    },
+    {
+      "title": "Expected Output",
+      "heading_level": null,
+      "page_id": 15,
+      "polygon": [
+        [
+          71.419921875,
+          72.9931640625
+        ],
+        [
+          154.3447265625,
+          72.9931640625
+        ],
+        [
+          154.3447265625,
+          84.3046875
+        ],
+        [
+          71.419921875,
+          84.3046875
+        ]
+      ]
+    },
+    {
+      "title": "2.3 Estimated Parameters",
+      "heading_level": null,
+      "page_id": 15,
+      "polygon": [
+        [
+          71.419921875,
+          158.361328125
+        ],
+        [
+          279.10546875,
+          158.361328125
+        ],
+        [
+          279.10546875,
+          177.50390625
+        ],
+        [
+          71.419921875,
+          177.50390625
+        ]
+      ]
+    },
+    {
+      "title": "Exercise 5: Computing the probability of each class",
+      "heading_level": null,
+      "page_id": 17,
+      "polygon": [
+        [
+          71.12109375,
+          131.677734375
+        ],
+        [
+          477.228515625,
+          131.677734375
+        ],
+        [
+          477.228515625,
+          153.333984375
+        ],
+        [
+          71.12109375,
+          153.333984375
+        ]
+      ]
+    },
+    {
+      "title": "{0: 0.250, 1: 0.500, 2: 0.250}",
+      "heading_level": null,
+      "page_id": 17,
+      "polygon": [
+        [
+          71.8681640625,
+          266.255859375
+        ],
+        [
+          277.3819580078125,
+          266.255859375
+        ],
+        [
+          277.3819580078125,
+          280.564453125
+        ],
+        [
+          71.8681640625,
+          280.564453125
+        ]
+      ]
+    },
+    {
+      "title": "Exercise 6: Compute the Probability of X given the Breed -\n> P( x\u2223Ci)",
+      "heading_level": null,
+      "page_id": 18,
+      "polygon": [
+        [
+          70.9716796875,
+          396.0
+        ],
+        [
+          531.31640625,
+          396.0
+        ],
+        [
+          531.31640625,
+          438.4049987792969
+        ],
+        [
+          70.9716796875,
+          438.4049987792969
+        ]
+      ]
+    },
+    {
+      "title": "Expected Output",
+      "heading_level": null,
+      "page_id": 21,
+      "polygon": [
+        [
+          70.486083984375,
+          181.564453125
+        ],
+        [
+          153.59765625,
+          181.564453125
+        ],
+        [
+          153.59765625,
+          193.552734375
+        ],
+        [
+          70.486083984375,
+          193.552734375
+        ]
+      ]
+    },
+    {
+      "title": "Exercise 7: Predict the Breed",
+      "heading_level": null,
+      "page_id": 21,
+      "polygon": [
+        [
+          71.04638671875,
+          329.291015625
+        ],
+        [
+          298.23046875,
+          329.291015625
+        ],
+        [
+          298.23046875,
+          349.05499267578125
+        ],
+        [
+          71.04638671875,
+          349.05499267578125
+        ]
+      ]
+    },
+    {
+      "title": "Expected Output",
+      "heading_level": null,
+      "page_id": 22,
+      "polygon": [
+        [
+          71.12109375,
+          534.3487548828125
+        ],
+        [
+          153.896484375,
+          534.3487548828125
+        ],
+        [
+          153.896484375,
+          546.43359375
+        ],
+        [
+          71.12109375,
+          546.43359375
+        ]
+      ]
+    },
+    {
+      "title": "Expected Output",
+      "heading_level": null,
+      "page_id": 23,
+      "polygon": [
+        [
+          71.34521484375,
+          106.154296875
+        ],
+        [
+          153.0,
+          106.154296875
+        ],
+        [
+          153.0,
+          117.54876708984375
+        ],
+        [
+          71.34521484375,
+          117.54876708984375
+        ]
+      ]
+    },
+    {
+      "title": "Section 3 - Spam Detector",
+      "heading_level": null,
+      "page_id": 23,
+      "polygon": [
+        [
+          71.71875,
+          253.82830810546875
+        ],
+        [
+          327.814453125,
+          253.82830810546875
+        ],
+        [
+          327.814453125,
+          275.82830810546875
+        ],
+        [
+          71.71875,
+          275.82830810546875
+        ]
+      ]
+    },
+    {
+      "title": "One last Naive Bayes reminder",
+      "heading_level": null,
+      "page_id": 24,
+      "polygon": [
+        [
+          71.8681640625,
+          307.248046875
+        ],
+        [
+          316.1619873046875,
+          307.248046875
+        ],
+        [
+          316.1619873046875,
+          326.970703125
+        ],
+        [
+          71.8681640625,
+          326.970703125
+        ]
+      ]
+    },
+    {
+      "title": "Exercise 8: Frequency of a word in each class",
+      "heading_level": null,
+      "page_id": 24,
+      "polygon": [
+        [
+          70.6728515625,
+          559.1953125
+        ],
+        [
+          428.51953125,
+          559.1953125
+        ],
+        [
+          428.51953125,
+          579.3046875
+        ],
+        [
+          70.6728515625,
+          579.3046875
+        ]
+      ]
+    },
+    {
+      "title": "Exercise 9: Frequency of classes",
+      "heading_level": null,
+      "page_id": 26,
+      "polygon": [
+        [
+          71.71875,
+          447.43359375
+        ],
+        [
+          327.515625,
+          447.43359375
+        ],
+        [
+          327.515625,
+          467.54296875
+        ],
+        [
+          71.71875,
+          467.54296875
+        ]
+      ]
+    },
+    {
+      "title": "Expected Output",
+      "heading_level": null,
+      "page_id": 28,
+      "polygon": [
+        [
+          70.784912109375,
+          131.1943359375
+        ],
+        [
+          153.1494140625,
+          131.1943359375
+        ],
+        [
+          153.1494140625,
+          142.9892578125
+        ],
+        [
+          70.784912109375,
+          142.9892578125
+        ]
+      ]
+    },
+    {
+      "title": "Exercise 10: Naive Bayes for categorical features",
+      "heading_level": null,
+      "page_id": 28,
+      "polygon": [
+        [
+          71.5693359375,
+          361.4049987792969
+        ],
+        [
+          454.81640625,
+          361.4049987792969
+        ],
+        [
+          454.81640625,
+          380.53125
+        ],
+        [
+          71.5693359375,
+          380.53125
+        ]
+      ]
+    },
+    {
+      "title": "Expected Output",
+      "heading_level": null,
+      "page_id": 30,
+      "polygon": [
+        [
+          71.158447265625,
+          401.7487487792969
+        ],
+        [
+          154.3447265625,
+          401.7487487792969
+        ],
+        [
+          154.3447265625,
+          413.7890625
+        ],
+        [
+          71.158447265625,
+          413.7890625
+        ]
+      ]
+    },
+    {
+      "title": "Congratulations on finishing this assignment!",
+      "heading_level": null,
+      "page_id": 30,
+      "polygon": [
+        [
+          71.19580078125,
+          521.296875
+        ],
+        [
+          301.517578125,
+          521.296875
+        ],
+        [
+          301.517578125,
+          533.1891784667969
+        ],
+        [
+          71.19580078125,
+          533.1891784667969
+        ]
+      ]
+    },
+    {
+      "title": "Keep up the good work!",
+      "heading_level": null,
+      "page_id": 30,
+      "polygon": [
+        [
+          72.0999984741211,
+          592.9891662597656
+        ],
+        [
+          190.43800354003906,
+          592.9891662597656
+        ],
+        [
+          190.43800354003906,
+          605.21484375
+        ],
+        [
+          72.0999984741211,
+          605.21484375
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          108
+        ],
+        [
+          "Line",
+          33
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "Code",
+          1
+        ],
+        [
+          "Equation",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          251
+        ],
+        [
+          "Line",
+          39
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "ListItem",
+          5
+        ],
+        [
+          "TextInlineMath",
+          4
+        ],
+        [
+          "Equation",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          82
+        ],
+        [
+          "Line",
+          38
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "ListItem",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          172
+        ],
+        [
+          "Line",
+          44
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "TextInlineMath",
+          4
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Equation",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          96
+        ],
+        [
+          "Line",
+          39
+        ],
+        [
+          "Code",
+          2
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          163
+        ],
+        [
+          "Line",
+          32
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Equation",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          153
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "Code",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          72
+        ],
+        [
+          "Line",
+          32
+        ],
+        [
+          "Text",
+          18
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          51
+        ],
+        [
+          "Line",
+          19
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "Figure",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "TextInlineMath",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          98
+        ],
+        [
+          "Line",
+          44
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "Code",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "TextInlineMath",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          443
+        ],
+        [
+          "Line",
+          50
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "TextInlineMath",
+          4
+        ],
+        [
+          "Equation",
+          3
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 11,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          302
+        ],
+        [
+          "Line",
+          49
+        ],
+        [
+          "TextInlineMath",
+          4
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "Equation",
+          2
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 12,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          137
+        ],
+        [
+          "Line",
+          48
+        ],
+        [
+          "Code",
+          3
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Equation",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 13,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          89
+        ],
+        [
+          "Line",
+          39
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "Code",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 14,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          158
+        ],
+        [
+          "Line",
+          51
+        ],
+        [
+          "TextInlineMath",
+          2
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "Code",
+          2
+        ],
+        [
+          "Equation",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 15,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          111
+        ],
+        [
+          "Line",
+          37
+        ],
+        [
+          "ListItem",
+          7
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Code",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 16,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          79
+        ],
+        [
+          "Line",
+          39
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "Code",
+          2
+        ]
+      ]
+    },
+    {
+      "page_id": 17,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          99
+        ],
+        [
+          "Line",
+          40
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Code",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 18,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          232
+        ],
+        [
+          "Line",
+          40
+        ],
+        [
+          "Code",
+          2
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "TextInlineMath",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Equation",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 19,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          132
+        ],
+        [
+          "Line",
+          45
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "Code",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 20,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          103
+        ],
+        [
+          "Line",
+          45
+        ],
+        [
+          "Text",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 21,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          124
+        ],
+        [
+          "Line",
+          38
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Code",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 22,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          87
+        ],
+        [
+          "Line",
+          40
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "Code",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 23,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          76
+        ],
+        [
+          "Line",
+          35
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "Code",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 24,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          198
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Code",
+          1
+        ],
+        [
+          "Equation",
+          1
+        ],
+        [
+          "TextInlineMath",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 25,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          116
+        ],
+        [
+          "Line",
+          46
+        ],
+        [
+          "Code",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 26,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          69
+        ],
+        [
+          "Line",
+          33
+        ],
+        [
+          "Code",
+          2
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 27,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          91
+        ],
+        [
+          "Line",
+          40
+        ],
+        [
+          "TextInlineMath",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 28,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          73
+        ],
+        [
+          "Line",
+          34
+        ],
+        [
+          "Code",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Text",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 29,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          112
+        ],
+        [
+          "Line",
+          46
+        ],
+        [
+          "TextInlineMath",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 30,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          61
+        ],
+        [
+          "Line",
+          28
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "Code",
+          1
+        ],
+        [
+          "TextInlineMath",
+          1
+        ]
+      ]
+    }
+  ],
+  "debug_data_path": "debug_data\\C3_W1_Assignment_2023_12_01_23_30_47"
+}

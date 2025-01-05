@@ -1,0 +1,831 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Week 2: Diving deeper into the BBC News \narchive",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          70.9716796875,
+          97.50146484375
+        ],
+        [
+          481.8939514160156,
+          97.50146484375
+        ],
+        [
+          481.8939514160156,
+          148.0283203125
+        ],
+        [
+          70.9716796875,
+          148.0283203125
+        ]
+      ]
+    },
+    {
+      "title": "category,text",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          71.419921875,
+          78.64892578125
+        ],
+        [
+          159.873046875,
+          78.64892578125
+        ],
+        [
+          159.873046875,
+          90.63720703125
+        ],
+        [
+          71.419921875,
+          90.63720703125
+        ]
+      ]
+    },
+    {
+      "title": "Each data point looks like this:",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          71.419921875,
+          101.9970703125
+        ],
+        [
+          284.783203125,
+          101.9970703125
+        ],
+        [
+          284.783203125,
+          114.1787109375
+        ],
+        [
+          71.419921875,
+          114.1787109375
+        ]
+      ]
+    },
+    {
+      "title": "Defining useful global variables",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          71.79345703125,
+          396.7734375
+        ],
+        [
+          325.423828125,
+          396.7734375
+        ],
+        [
+          325.423828125,
+          418.4296875
+        ],
+        [
+          71.79345703125,
+          418.4296875
+        ]
+      ]
+    },
+    {
+      "title": "Loading and pre-processing the data",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          71.419921875,
+          195.873046875
+        ],
+        [
+          365.466796875,
+          195.873046875
+        ],
+        [
+          365.466796875,
+          215.208984375
+        ],
+        [
+          71.419921875,
+          215.208984375
+        ]
+      ]
+    },
+    {
+      "title": "Training - Validation Split",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          71.2705078125,
+          273.41015625
+        ],
+        [
+          273.8759765625,
+          273.41015625
+        ],
+        [
+          273.8759765625,
+          294.29296875
+        ],
+        [
+          71.2705078125,
+          294.29296875
+        ]
+      ]
+    },
+    {
+      "title": "Expected Output:",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          71.980224609375,
+          465.609375
+        ],
+        [
+          161.2177734375,
+          465.609375
+        ],
+        [
+          161.2177734375,
+          477.984375
+        ],
+        [
+          71.980224609375,
+          477.984375
+        ]
+      ]
+    },
+    {
+      "title": "Tokenization - Sequences and padding",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          70.822265625,
+          595.8050079345703
+        ],
+        [
+          380.70703125,
+          595.8050079345703
+        ],
+        [
+          380.70703125,
+          613.8050079345703
+        ],
+        [
+          70.822265625,
+          613.8050079345703
+        ]
+      ]
+    },
+    {
+      "title": "Expected Output:",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          71.158447265625,
+          646.20703125
+        ],
+        [
+          160.7630615234375,
+          646.20703125
+        ],
+        [
+          160.7630615234375,
+          658.6760101318359
+        ],
+        [
+          71.158447265625,
+          658.6760101318359
+        ]
+      ]
+    },
+    {
+      "title": "Expected Output:",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          71.64404296875,
+          129.9375
+        ],
+        [
+          161.3671875,
+          129.9375
+        ],
+        [
+          161.3671875,
+          143.0859375
+        ],
+        [
+          71.64404296875,
+          143.0859375
+        ]
+      ]
+    },
+    {
+      "title": "Expected Output:",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          70.934326171875,
+          153.333984375
+        ],
+        [
+          161.2177734375,
+          153.333984375
+        ],
+        [
+          161.2177734375,
+          166.67578125
+        ],
+        [
+          70.934326171875,
+          166.67578125
+        ]
+      ]
+    },
+    {
+      "title": "Selecting the model for text classification",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          71.419921875,
+          411.08203125
+        ],
+        [
+          400.728515625,
+          411.08203125
+        ],
+        [
+          400.728515625,
+          431.19140625
+        ],
+        [
+          71.419921875,
+          431.19140625
+        ]
+      ]
+    },
+    {
+      "title": "Optional Exercise - Visualizing 3D Vectors",
+      "heading_level": null,
+      "page_id": 16,
+      "polygon": [
+        [
+          70.822265625,
+          386.05499267578125
+        ],
+        [
+          405.509765625,
+          386.05499267578125
+        ],
+        [
+          405.509765625,
+          404.12109375
+        ],
+        [
+          70.822265625,
+          404.12109375
+        ]
+      ]
+    },
+    {
+      "title": "Expected Output:",
+      "heading_level": null,
+      "page_id": 16,
+      "polygon": [
+        [
+          71.531982421875,
+          640.79296875
+        ],
+        [
+          160.9189453125,
+          640.79296875
+        ],
+        [
+          160.9189453125,
+          654.71484375
+        ],
+        [
+          71.531982421875,
+          654.71484375
+        ]
+      ]
+    },
+    {
+      "title": "Congratulations on finishing this week's assignment!",
+      "heading_level": null,
+      "page_id": 17,
+      "polygon": [
+        [
+          70.74755859375,
+          388.265625
+        ],
+        [
+          337.67578125,
+          388.265625
+        ],
+        [
+          337.67578125,
+          399.8671875
+        ],
+        [
+          70.74755859375,
+          399.8671875
+        ]
+      ]
+    },
+    {
+      "title": "Keep it up!",
+      "heading_level": null,
+      "page_id": 17,
+      "polygon": [
+        [
+          72.0999984741211,
+          445.9891662597656
+        ],
+        [
+          125.208984375,
+          445.9891662597656
+        ],
+        [
+          125.208984375,
+          457.875
+        ],
+        [
+          72.0999984741211,
+          457.875
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          73
+        ],
+        [
+          "Line",
+          40
+        ],
+        [
+          "Text",
+          12
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          92
+        ],
+        [
+          "Line",
+          47
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Text",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          92
+        ],
+        [
+          "Line",
+          38
+        ],
+        [
+          "ListItem",
+          6
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          99
+        ],
+        [
+          "Line",
+          43
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "TextInlineMath",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Code",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          87
+        ],
+        [
+          "Line",
+          40
+        ],
+        [
+          "Code",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          84
+        ],
+        [
+          "Line",
+          38
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "Code",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          69
+        ],
+        [
+          "Line",
+          33
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Code",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          96
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "Code",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "ListItem",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          96
+        ],
+        [
+          "Line",
+          45
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "Code",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          88
+        ],
+        [
+          "Line",
+          37
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "Code",
+          3
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          97
+        ],
+        [
+          "Line",
+          45
+        ],
+        [
+          "Code",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 11,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          78
+        ],
+        [
+          "Line",
+          35
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Code",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 12,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          92
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "Code",
+          2
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "ListItem",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 13,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          97
+        ],
+        [
+          "Line",
+          49
+        ],
+        [
+          "Text",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 14,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          91
+        ],
+        [
+          "Line",
+          46
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "Text",
+          2
+        ]
+      ]
+    },
+    {
+      "page_id": 15,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          15
+        ],
+        [
+          "Line",
+          8
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "Figure",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 16,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          35
+        ],
+        [
+          "Line",
+          18
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Code",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 17,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          58
+        ],
+        [
+          "Line",
+          23
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "Code",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ]
+      ]
+    }
+  ],
+  "debug_data_path": "debug_data\\C3W2_Assignment"
+}

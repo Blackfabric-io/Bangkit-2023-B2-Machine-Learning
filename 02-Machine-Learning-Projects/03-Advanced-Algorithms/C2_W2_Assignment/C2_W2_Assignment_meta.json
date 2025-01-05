@@ -1,0 +1,873 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Practice Lab: Neural Networks for Handwritten \nDigit Recognition, Multiclass",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          71.71875,
+          96.5830078125
+        ],
+        [
+          532.3400268554688,
+          96.5830078125
+        ],
+        [
+          532.3400268554688,
+          148.7900390625
+        ],
+        [
+          71.71875,
+          148.7900390625
+        ]
+      ]
+    },
+    {
+      "title": "Outline",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          71.606689453125,
+          196.646484375
+        ],
+        [
+          147.322265625,
+          196.646484375
+        ],
+        [
+          147.322265625,
+          220.62835693359375
+        ],
+        [
+          71.606689453125,
+          220.62835693359375
+        ]
+      ]
+    },
+    {
+      "title": "1 - Packages",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          70.784912109375,
+          481.46484375
+        ],
+        [
+          171.3779296875,
+          481.46484375
+        ],
+        [
+          171.3779296875,
+          503.89453125
+        ],
+        [
+          70.784912109375,
+          503.89453125
+        ]
+      ]
+    },
+    {
+      "title": "2 - ReLU Activation",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          70.74755859375,
+          231.064453125
+        ],
+        [
+          222.92578125,
+          231.064453125
+        ],
+        [
+          222.92578125,
+          249.626953125
+        ],
+        [
+          70.74755859375,
+          249.626953125
+        ]
+      ]
+    },
+    {
+      "title": "3 - Softmax Function",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          71.5693359375,
+          500.4140625
+        ],
+        [
+          238.3154296875,
+          500.4140625
+        ],
+        [
+          238.3154296875,
+          519.75
+        ],
+        [
+          71.5693359375,
+          519.75
+        ]
+      ]
+    },
+    {
+      "title": "Exercise 1",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          71.71875,
+          97.66253662109375
+        ],
+        [
+          136.7138671875,
+          97.66253662109375
+        ],
+        [
+          136.7138671875,
+          112.66253662109375
+        ],
+        [
+          71.71875,
+          112.66253662109375
+        ]
+      ]
+    },
+    {
+      "title": "4 - Neural Networks",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          71.12109375,
+          504.28125
+        ],
+        [
+          234.4306640625,
+          504.28125
+        ],
+        [
+          234.4306640625,
+          525.1640625
+        ],
+        [
+          71.12109375,
+          525.1640625
+        ]
+      ]
+    },
+    {
+      "title": "4.1 Problem Statement",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          71.34521484375,
+          592.453125
+        ],
+        [
+          225.31640625,
+          592.453125
+        ],
+        [
+          225.31640625,
+          611.015625
+        ],
+        [
+          71.34521484375,
+          611.015625
+        ]
+      ]
+    },
+    {
+      "title": "4.2 Dataset",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          71.79345703125,
+          73.91162109375
+        ],
+        [
+          149.93701171875,
+          73.91162109375
+        ],
+        [
+          149.93701171875,
+          90.15380859375
+        ],
+        [
+          71.79345703125,
+          90.15380859375
+        ]
+      ]
+    },
+    {
+      "title": "4.2.1 View the variables",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          71.830810546875,
+          480.69140625
+        ],
+        [
+          201.41015625,
+          480.69140625
+        ],
+        [
+          201.41015625,
+          494.61328125
+        ],
+        [
+          71.830810546875,
+          494.61328125
+        ]
+      ]
+    },
+    {
+      "title": "4.3 Model representation",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          70.89697265625,
+          217.142578125
+        ],
+        [
+          241.751953125,
+          217.142578125
+        ],
+        [
+          241.751953125,
+          232.998046875
+        ],
+        [
+          70.89697265625,
+          232.998046875
+        ]
+      ]
+    },
+    {
+      "title": "4.4 Tensorflow Model Implementation",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          71.5693359375,
+          617.203125
+        ],
+        [
+          329.90625,
+          617.203125
+        ],
+        [
+          329.90625,
+          633.4453125
+        ],
+        [
+          71.5693359375,
+          633.4453125
+        ]
+      ]
+    },
+    {
+      "title": "4.5 Softmax placement",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          72.017578125,
+          157.2978515625
+        ],
+        [
+          228.005859375,
+          157.2978515625
+        ],
+        [
+          228.005859375,
+          175.2802734375
+        ],
+        [
+          72.017578125,
+          175.2802734375
+        ]
+      ]
+    },
+    {
+      "title": "Exercise 2",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          70.784912109375,
+          431.19140625
+        ],
+        [
+          140.748046875,
+          431.19140625
+        ],
+        [
+          140.748046875,
+          448.98046875
+        ],
+        [
+          70.784912109375,
+          448.98046875
+        ]
+      ]
+    },
+    {
+      "title": "Epochs and batches",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          71.756103515625,
+          478.5603942871094
+        ],
+        [
+          182.1357421875,
+          478.5603942871094
+        ],
+        [
+          182.1357421875,
+          491.1328125
+        ],
+        [
+          71.756103515625,
+          491.1328125
+        ]
+      ]
+    },
+    {
+      "title": "Epoch 1/40\n157/157 [==============================] - 0s 1ms/step - loss: 2.2770",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          70.5234375,
+          553.39453125
+        ],
+        [
+          533.109375,
+          553.39453125
+        ],
+        [
+          533.109375,
+          582.01171875
+        ],
+        [
+          70.5234375,
+          582.01171875
+        ]
+      ]
+    },
+    {
+      "title": "Loss (cost)",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          71.307861328125,
+          660.6604156494141
+        ],
+        [
+          131.484375,
+          660.6604156494141
+        ],
+        [
+          131.484375,
+          674.05078125
+        ],
+        [
+          71.307861328125,
+          674.05078125
+        ]
+      ]
+    },
+    {
+      "title": "Congratulations!",
+      "heading_level": null,
+      "page_id": 15,
+      "polygon": [
+        [
+          70.859619140625,
+          105.6708984375
+        ],
+        [
+          185.1240234375,
+          105.6708984375
+        ],
+        [
+          185.1240234375,
+          122.8798828125
+        ],
+        [
+          70.859619140625,
+          122.8798828125
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          96
+        ],
+        [
+          "Line",
+          37
+        ],
+        [
+          "ListItem",
+          14
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "ListGroup",
+          2
+        ]
+      ]
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          114
+        ],
+        [
+          "Line",
+          38
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Code",
+          1
+        ],
+        [
+          "TextInlineMath",
+          1
+        ],
+        [
+          "Equation",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          105
+        ],
+        [
+          "Line",
+          39
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "Code",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          71
+        ],
+        [
+          "Line",
+          31
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "Code",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ]
+      ]
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          155
+        ],
+        [
+          "Line",
+          45
+        ],
+        [
+          "ListItem",
+          10
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Equation",
+          1
+        ],
+        [
+          "Code",
+          1
+        ],
+        [
+          "TextInlineMath",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          95
+        ],
+        [
+          "Line",
+          48
+        ],
+        [
+          "Table",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          97
+        ],
+        [
+          "Line",
+          37
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "Code",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          159
+        ],
+        [
+          "Line",
+          36
+        ],
+        [
+          "ListItem",
+          12
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Code",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          95
+        ],
+        [
+          "Line",
+          39
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "Code",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          103
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "Code",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          89
+        ],
+        [
+          "Line",
+          37
+        ],
+        [
+          "Code",
+          4
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "TextInlineMath",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 11,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          99
+        ],
+        [
+          "Line",
+          50
+        ],
+        [
+          "Table",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 12,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          93
+        ],
+        [
+          "Line",
+          43
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "Table",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 13,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          75
+        ],
+        [
+          "Line",
+          34
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "TextInlineMath",
+          2
+        ],
+        [
+          "Code",
+          2
+        ]
+      ]
+    },
+    {
+      "page_id": 14,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          88
+        ],
+        [
+          "Line",
+          40
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "Code",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 15,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          5
+        ],
+        [
+          "Line",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Text",
+          1
+        ]
+      ]
+    }
+  ],
+  "debug_data_path": "debug_data\\C2_W2_Assignment"
+}

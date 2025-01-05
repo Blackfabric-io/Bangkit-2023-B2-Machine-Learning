@@ -1,0 +1,748 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Practice lab: Collaborative Filtering \nRecommender Systems",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          72.0999984741211,
+          96.7763671875
+        ],
+        [
+          422.3619384765625,
+          96.7763671875
+        ],
+        [
+          422.3619384765625,
+          148.7900390625
+        ],
+        [
+          72.0999984741211,
+          148.7900390625
+        ]
+      ]
+    },
+    {
+      "title": "Outline",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          72.0999984741211,
+          210.181640625
+        ],
+        [
+          151.8046875,
+          210.181640625
+        ],
+        [
+          151.8046875,
+          233.82830810546875
+        ],
+        [
+          72.0999984741211,
+          233.82830810546875
+        ]
+      ]
+    },
+    {
+      "title": "Packages",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          72.0999984741211,
+          441.6328125
+        ],
+        [
+          150.59800720214844,
+          441.6328125
+        ],
+        [
+          150.59800720214844,
+          464.0625
+        ],
+        [
+          72.0999984741211,
+          464.0625
+        ]
+      ]
+    },
+    {
+      "title": "1 - Notation",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          71.830810546875,
+          590.90625
+        ],
+        [
+          167.044921875,
+          590.90625
+        ],
+        [
+          167.044921875,
+          611.7890625
+        ],
+        [
+          71.830810546875,
+          611.7890625
+        ]
+      ]
+    },
+    {
+      "title": "2 - Recommender Systems",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          71.49462890625,
+          135.158203125
+        ],
+        [
+          289.7559814453125,
+          135.158203125
+        ],
+        [
+          289.7559814453125,
+          155.84765625
+        ],
+        [
+          71.49462890625,
+          155.84765625
+        ]
+      ]
+    },
+    {
+      "title": "3 - Movie ratings dataset",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          71.34521484375,
+          532.51171875
+        ],
+        [
+          273.1780090332031,
+          532.51171875
+        ],
+        [
+          273.1780090332031,
+          553.39453125
+        ],
+        [
+          71.34521484375,
+          553.39453125
+        ]
+      ]
+    },
+    {
+      "title": "4 - Collaborative filtering learning algorithm",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          71.8681640625,
+          72.7998046875
+        ],
+        [
+          428.1940002441406,
+          72.7998046875
+        ],
+        [
+          428.1940002441406,
+          94.166015625
+        ],
+        [
+          71.8681640625,
+          94.166015625
+        ]
+      ]
+    },
+    {
+      "title": "4.1 Collaborative filtering cost function",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          71.71875,
+          294.6796875
+        ],
+        [
+          329.009765625,
+          294.6796875
+        ],
+        [
+          329.009765625,
+          312.08203125
+        ],
+        [
+          71.71875,
+          312.08203125
+        ]
+      ]
+    },
+    {
+      "title": "Exercise 1",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          72.0999984741211,
+          510.46875
+        ],
+        [
+          136.7138671875,
+          510.46875
+        ],
+        [
+          136.7138671875,
+          525.5625
+        ],
+        [
+          72.0999984741211,
+          525.5625
+        ]
+      ]
+    },
+    {
+      "title": "For loop Implementation:",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          71.681396484375,
+          535.60546875
+        ],
+        [
+          202.1572265625,
+          535.60546875
+        ],
+        [
+          202.1572265625,
+          548.75390625
+        ],
+        [
+          71.681396484375,
+          548.75390625
+        ]
+      ]
+    },
+    {
+      "title": "Expected Output (lambda = 0):\n13.67.",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          71.79345703125,
+          230.484375
+        ],
+        [
+          225.31640625,
+          230.484375
+        ],
+        [
+          225.31640625,
+          255.416748046875
+        ],
+        [
+          71.79345703125,
+          255.416748046875
+        ]
+      ]
+    },
+    {
+      "title": "Expected Output:",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          71.12109375,
+          346.88671875
+        ],
+        [
+          159.873046875,
+          346.88671875
+        ],
+        [
+          159.873046875,
+          360.03515625
+        ],
+        [
+          71.12109375,
+          360.03515625
+        ]
+      ]
+    },
+    {
+      "title": "Vectorized Implementation",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          70.9716796875,
+          473.34375
+        ],
+        [
+          209.77734375,
+          473.34375
+        ],
+        [
+          209.77734375,
+          485.71875
+        ],
+        [
+          70.9716796875,
+          485.71875
+        ]
+      ]
+    },
+    {
+      "title": "Expected Output:\nCost: 13.67\nCost (with regularization): 28.09",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          70.74755859375,
+          368.349609375
+        ],
+        [
+          228.69598388671875,
+          368.349609375
+        ],
+        [
+          228.69598388671875,
+          406.5391540527344
+        ],
+        [
+          70.74755859375,
+          406.5391540527344
+        ]
+      ]
+    },
+    {
+      "title": "## 5 - Learning movie recommendations",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          71.419921875,
+          440.859375
+        ],
+        [
+          400.97796630859375,
+          440.859375
+        ],
+        [
+          400.97796630859375,
+          460.1050109863281
+        ],
+        [
+          71.419921875,
+          460.1050109863281
+        ]
+      ]
+    },
+    {
+      "title": "6 - Recommendations",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          71.04638671875,
+          568.08984375
+        ],
+        [
+          248.19398498535156,
+          568.08984375
+        ],
+        [
+          248.19398498535156,
+          587.42578125
+        ],
+        [
+          71.04638671875,
+          587.42578125
+        ]
+      ]
+    },
+    {
+      "title": "7 - Congratulations!",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          70.0751953125,
+          413.015625
+        ],
+        [
+          234.44200134277344,
+          413.015625
+        ],
+        [
+          234.44200134277344,
+          431.05499267578125
+        ],
+        [
+          70.0751953125,
+          431.05499267578125
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          134
+        ],
+        [
+          "Line",
+          41
+        ],
+        [
+          "ListItem",
+          9
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Code",
+          1
+        ],
+        [
+          "TextInlineMath",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          194
+        ],
+        [
+          "Line",
+          52
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "TextInlineMath",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          355
+        ],
+        [
+          "Line",
+          87
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "TextInlineMath",
+          2
+        ],
+        [
+          "Equation",
+          1
+        ],
+        [
+          "Code",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          577
+        ],
+        [
+          "Line",
+          122
+        ],
+        [
+          "TextInlineMath",
+          5
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "Equation",
+          2
+        ]
+      ]
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          117
+        ],
+        [
+          "Line",
+          44
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "Code",
+          2
+        ]
+      ]
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          81
+        ],
+        [
+          "Line",
+          37
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "Code",
+          4
+        ],
+        [
+          "SectionHeader",
+          3
+        ]
+      ]
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          81
+        ],
+        [
+          "Line",
+          37
+        ],
+        [
+          "Code",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Text",
+          2
+        ]
+      ]
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          130
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "TextInlineMath",
+          1
+        ],
+        [
+          "Text",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          104
+        ],
+        [
+          "Line",
+          38
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "Code",
+          2
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          132
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "Code",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          91
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "Text",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 11,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          91
+        ],
+        [
+          "Line",
+          45
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "Code",
+          1
+        ],
+        [
+          "TextInlineMath",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 12,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          49
+        ],
+        [
+          "Line",
+          25
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Text",
+          1
+        ]
+      ]
+    }
+  ],
+  "debug_data_path": "debug_data\\C3_W2_Collaborative_RecSys_Assignment"
+}

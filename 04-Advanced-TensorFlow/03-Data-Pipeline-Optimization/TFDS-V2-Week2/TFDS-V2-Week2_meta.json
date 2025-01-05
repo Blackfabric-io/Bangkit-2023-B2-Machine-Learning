@@ -1,0 +1,413 @@
+{
+  "table_of_contents": [
+    {
+      "title": "TRANSFER LEARNING",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          71.34521484375,
+          96.29296875
+        ],
+        [
+          290.4609375,
+          96.29296875
+        ],
+        [
+          290.4609375,
+          121.62835693359375
+        ],
+        [
+          71.34521484375,
+          121.62835693359375
+        ]
+      ]
+    },
+    {
+      "title": "Step 0 - Import libraries and set up the splits",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          70.6728515625,
+          330.064453125
+        ],
+        [
+          427.32421875,
+          330.064453125
+        ],
+        [
+          427.32421875,
+          350.947265625
+        ],
+        [
+          70.6728515625,
+          350.947265625
+        ]
+      ]
+    },
+    {
+      "title": "Step 1 - Load the Mobilenet model and its features",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          70.0751953125,
+          527.87109375
+        ],
+        [
+          472.74609375,
+          527.87109375
+        ],
+        [
+          472.74609375,
+          548.75390625
+        ],
+        [
+          70.0751953125,
+          548.75390625
+        ]
+      ]
+    },
+    {
+      "title": "Step 2 - Split the dataset",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          71.419921875,
+          303.9609375
+        ],
+        [
+          268.048828125,
+          303.9609375
+        ],
+        [
+          268.048828125,
+          326.00390625
+        ],
+        [
+          71.419921875,
+          326.00390625
+        ]
+      ]
+    },
+    {
+      "title": "Step 3 - Shuffle and map the new batches",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          70.6728515625,
+          349.59375
+        ],
+        [
+          402.8203125,
+          349.59375
+        ],
+        [
+          402.8203125,
+          371.25
+        ],
+        [
+          70.6728515625,
+          371.25
+        ]
+      ]
+    },
+    {
+      "title": "Step 4 - Define your transfer learning model",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          70.3740234375,
+          282.884765625
+        ],
+        [
+          423.140625,
+          282.884765625
+        ],
+        [
+          423.140625,
+          302.607421875
+        ],
+        [
+          70.3740234375,
+          302.607421875
+        ]
+      ]
+    },
+    {
+      "title": "Submission Instructions",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          70.9716796875,
+          361.96875
+        ],
+        [
+          305.8505859375,
+          361.96875
+        ],
+        [
+          305.8505859375,
+          385.22833251953125
+        ],
+        [
+          70.9716796875,
+          385.22833251953125
+        ]
+      ]
+    },
+    {
+      "title": "[Optional] Step 5 - Training your model",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          71.71875,
+          421.13671875
+        ],
+        [
+          386.982421875,
+          421.13671875
+        ],
+        [
+          386.982421875,
+          441.24609375
+        ],
+        [
+          71.71875,
+          441.24609375
+        ]
+      ]
+    },
+    {
+      "title": "Remember to submit your assignment before you uncomment and run the next cells.",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          70.224609375,
+          520.5234375
+        ],
+        [
+          496.951171875,
+          520.5234375
+        ],
+        [
+          496.951171875,
+          534.4453125
+        ],
+        [
+          70.224609375,
+          534.4453125
+        ]
+      ]
+    },
+    {
+      "title": "When you're done or would like to take a break, \nplease run the two cells below to save your \nwork and close the Notebook. This frees up \nresources for your fellow learners.",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          70.9716796875,
+          242.666015625
+        ],
+        [
+          537.575927734375,
+          242.666015625
+        ],
+        [
+          537.575927734375,
+          347.0283203125
+        ],
+        [
+          70.9716796875,
+          347.0283203125
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          78
+        ],
+        [
+          "Line",
+          32
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Code",
+          2
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          97
+        ],
+        [
+          "Line",
+          35
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "TextInlineMath",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Code",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          95
+        ],
+        [
+          "Line",
+          36
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "Code",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          78
+        ],
+        [
+          "Line",
+          38
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "Code",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          70
+        ],
+        [
+          "Line",
+          36
+        ],
+        [
+          "Text",
+          22
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "TextInlineMath",
+          1
+        ]
+      ]
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          39
+        ],
+        [
+          "Line",
+          20
+        ],
+        [
+          "Code",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ]
+    }
+  ],
+  "debug_data_path": "debug_data\\TFDS-V2-Week2"
+}
