@@ -1,0 +1,5 @@
+# Exclude all PDF files
+*.pdf
+
+# Exclude all Jupyter Notebook files
+*.ipynb
