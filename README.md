@@ -1,7 +1,7 @@
 # Machine Learning and Data Science Portfolio
 *Collection of projects and assignments notes from Bangkit Academy 2023 Experience*
 
-## 📚 Portfolio Structure
+## Structure
 
 ### 1. Foundation Mathematics
 - Linear Algebra for ML
