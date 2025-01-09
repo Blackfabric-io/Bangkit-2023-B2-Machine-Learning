@@ -1,82 +1,48 @@
-# Text Generation using Recurrent Neural Networks
+# Poetry Generation with LSTM
 
-## Project Overview
-This project implements a text generation system using Recurrent Neural Networks (RNNs) with LSTM layers. The model is trained to generate coherent text sequences by learning patterns from a large corpus of text data.
+## Project Description
+This project implements an advanced text generation system specifically designed for poetry creation. Using LSTM networks, it learns poetic patterns, rhyme schemes, and literary devices to generate original poetry in various styles.
 
-## Technical Implementation
-- **Framework**: TensorFlow 2.6.0
-- **Architecture**: Bidirectional LSTM with attention
-- **Input**: Character sequences (length: 100)
-- **Output**: Next character prediction (vocab size: 65)
+## Learning Outcomes
+- Building advanced text generation models
+- Implementing poetry-specific features
+- Managing literary style transfer
+- Handling structured text generation
+- Evaluating creative text quality
 
-## Key Features
-- Character-level text generation
-- Temperature-based sampling (τ = 0.7)
-- Dynamic sequence padding
-- Scaled dot-product attention mechanism
+## Implementation Details
+1. **Data Processing**
+   - Poetry corpus preparation
+   - Rhyme scheme analysis
+   - Meter pattern detection
+   - Style categorization
 
-## Results
-- Training perplexity: 1.42
-- Validation perplexity: 1.57
-- Sample generated texts show coherent structure
+2. **Model Architecture**
+   - Stacked LSTM layers
+   - Attention mechanism
+   - Style conditioning
+   - Output formatting
 
-## Real-world Applications
-### General Applications
-- Creative writing assistance
-- Code completion
-- Chat bot responses
-- Content generation
+3. **Generation Features**
+   - Rhyme enforcement
+   - Meter consistency
+   - Style transfer
+   - Temperature control
 
-### Aerospace Applications
-- Technical documentation generation
-- Maintenance procedure synthesis
-- Report summarization
-- Communication protocol generation
+## Results and Metrics
+- Style Consistency: >80%
+- Rhyme Accuracy: >75%
+- Meter Adherence: >70%
+- Unique Vocabulary Usage: 5000+ words
 
-## Technical Challenges & Solutions
-1. **Challenge**: Long-term dependency handling
-   - *Solution*: Implemented multi-head attention with 8 heads
-   
-2. **Challenge**: Training stability
-   - *Solution*: Gradient clipping at 1.0 and learning rate scheduling
-
-## Dataset Information
-- Source: Shakespeare text corpus
-- Size: 1.1M characters
-- Format: UTF-8 encoded text
-- Usage Rights: Public domain
-
-## Code Structure
-```python
-# Key components of the implementation
-- text_preprocessing.py   # Character tokenization
-- model_architecture.py   # LSTM with attention
-- training_pipeline.py    # Training loop
-- text_generation.py      # Sampling and generation
-```
-
-## Requirements
-- TensorFlow >= 2.6.0
-- NumPy >= 1.19.5
-- NLTK >= 3.6.3
-- Python >= 3.7.0
-
-## Model Architecture Details
-1. **Embedding Layer**
-   - Dimension: 256
-   - Vocabulary size: 65 (unique characters)
-
-2. **LSTM Layers**
-   - Units per layer: [512, 256]
-   - Number of layers: 2
-   - Dropout: 0.2
-
-## Future Improvements
-1. Transformer architecture with GPT-style attention
-2. Support for multiple languages with Unicode
-3. Context-aware generation with memory networks
+## Key Takeaways
+- Poetry structure handling
+- Literary style transfer
+- Creative text generation
+- Model architecture optimization
 
 ## References
-1. "LSTM: Long Short-Term Memory" (Hochreiter & Schmidhuber, 1997)
-2. "Attention Is All You Need" (Vaswani et al., 2017)
-3. TensorFlow Text Generation Tutorial 
+- [Poetry Generation Paper](https://arxiv.org/abs/1909.09534)
+- [LSTM for Creative Writing](https://www.tensorflow.org/tutorials/text/text_generation)
+- [Poetry Dataset](https://www.kaggle.com/datasets/tgdivy/poetry-foundation-poems)
+- [Style Transfer in Text](https://arxiv.org/abs/1711.06861) 

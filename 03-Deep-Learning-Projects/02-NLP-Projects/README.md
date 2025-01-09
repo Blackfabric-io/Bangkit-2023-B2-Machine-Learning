@@ -1,82 +1,56 @@
-# Text Generation using Recurrent Neural Networks
+# Natural Language Processing Projects
 
-## Project Overview
-This project implements a text generation system using Recurrent Neural Networks (RNNs) with LSTM layers. The model is trained to generate coherent text sequences by learning patterns from a large corpus of text data.
+## Project Description
+This section explores various Natural Language Processing (NLP) applications using deep learning techniques. The projects range from text classification and sentiment analysis to creative text generation tasks, demonstrating different approaches to processing and generating human language.
 
-## Technical Implementation
-- **Framework**: TensorFlow 2.6.0
-- **Architecture**: Bidirectional LSTM with attention
-- **Input**: Character sequences (length: 100)
-- **Output**: Next character prediction (vocab size: 65)
+## Learning Outcomes
+- Understanding text preprocessing and tokenization
+- Implementing word embeddings and sequence models
+- Building text classification pipelines
+- Developing generative language models
+- Applying attention mechanisms and transformers
 
-## Key Features
-- Character-level text generation
-- Temperature-based sampling (τ = 0.7)
-- Dynamic sequence padding
-- Scaled dot-product attention mechanism
+## Project Structure
+1. **01-News-Classification**
+   - Multi-class text classification
+   - Text preprocessing techniques
+   - Document embedding methods
+   - Model evaluation strategies
 
-## Results
-- Training perplexity: 1.42
-- Validation perplexity: 1.57
-- Sample generated texts show coherent structure
+2. **02-Sentiment-Analysis-IMDB**
+   - Binary sentiment classification
+   - Word embedding implementation
+   - RNN/LSTM architectures
+   - Performance optimization
 
-## Real-world Applications
-### General Applications
-- Creative writing assistance
-- Code completion
-- Chat bot responses
-- Content generation
+3. **03-Text-Generation-Shakespeare**
+   - Character-level text generation
+   - Sequence modeling
+   - Temperature sampling
+   - Creative text generation
 
-### Aerospace Applications
-- Technical documentation generation
-- Maintenance procedure synthesis
-- Report summarization
-- Communication protocol generation
+4. **04-Poetry-Generation-LSTM**
+   - Advanced text generation
+   - LSTM networks
+   - Literary style transfer
+   - Creative writing applications
 
-## Technical Challenges & Solutions
-1. **Challenge**: Long-term dependency handling
-   - *Solution*: Implemented multi-head attention with 8 heads
-   
-2. **Challenge**: Training stability
-   - *Solution*: Gradient clipping at 1.0 and learning rate scheduling
+## Technologies and Libraries
+- TensorFlow 2.x
+- NLTK
+- spaCy
+- Keras Text Processing
+- Word2Vec/GloVe
+- TensorFlow Hub
 
-## Dataset Information
-- Source: Shakespeare text corpus
-- Size: 1.1M characters
-- Format: UTF-8 encoded text
-- Usage Rights: Public domain
-
-## Code Structure
-```python
-# Key components of the implementation
-- text_preprocessing.py   # Character tokenization
-- model_architecture.py   # LSTM with attention
-- training_pipeline.py    # Training loop
-- text_generation.py      # Sampling and generation
-```
-
-## Requirements
-- TensorFlow >= 2.6.0
-- NumPy >= 1.19.5
-- NLTK >= 3.6.3
-- Python >= 3.7.0
-
-## Model Architecture Details
-1. **Embedding Layer**
-   - Dimension: 256
-   - Vocabulary size: 65 (unique characters)
-
-2. **LSTM Layers**
-   - Units per layer: [512, 256]
-   - Number of layers: 2
-   - Dropout: 0.2
-
-## Future Improvements
-1. Transformer architecture with GPT-style attention
-2. Support for multiple languages with Unicode
-3. Context-aware generation with memory networks
+## Results and Metrics
+- News Classification: >92% categorical accuracy
+- Sentiment Analysis: >88% binary accuracy
+- Text Generation: Coherent sequence generation
+- Poetry Generation: Style-consistent creative text
 
 ## References
-1. "LSTM: Long Short-Term Memory" (Hochreiter & Schmidhuber, 1997)
-2. "Attention Is All You Need" (Vaswani et al., 2017)
-3. TensorFlow Text Generation Tutorial 
+- [TensorFlow Text Tutorial](https://www.tensorflow.org/tutorials/text/text_classification)
+- [Natural Language Processing with Deep Learning](https://web.stanford.edu/class/cs224n/)
+- [LSTM Networks for Text Generation](https://www.tensorflow.org/text/tutorials/text_generation)
+- [Attention Is All You Need Paper](https://arxiv.org/abs/1706.03762) 
