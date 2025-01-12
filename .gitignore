@@ -1,3 +1,5 @@
+_archive/
+
 # Exclude all PDF files
 *.pdf
 

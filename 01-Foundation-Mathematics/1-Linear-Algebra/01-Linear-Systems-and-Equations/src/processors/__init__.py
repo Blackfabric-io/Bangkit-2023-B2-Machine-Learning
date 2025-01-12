@@ -1,0 +1,3 @@
+"""
+Linear system processing functionality.
+""" 
