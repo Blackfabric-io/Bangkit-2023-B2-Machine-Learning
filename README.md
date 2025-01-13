@@ -1,61 +1,67 @@
 # Machine Learning and Data Science Portfolio
-*Collection of projects and assignments notes from Bangkit Academy 2023 Experience*
+*Collection of projects and implementations from Bangkit Academy 2023*
 
-## Structure
+## Repository Structure
 
 ### 1. Foundation Mathematics
-- Linear Algebra for ML
-- Calculus for ML
-- Probability and Statistics
+Implementation of core mathematical concepts essential for machine learning:
+- Linear Algebra: Vector spaces, transformations, eigenvalues
+- Calculus: Gradient descent, backpropagation
+- Probability & Statistics: Distributions, inference, hypothesis testing
 
 ### 2. Machine Learning Projects
-- Supervised Learning
-  - Regression Projects
-  - Classification Projects
-- Unsupervised Learning
-  - Clustering Analysis
-  - Dimensionality Reduction
-- Recommender Systems
+#### Supervised Learning
+- Housing Price Prediction (Linear Regression)
+  ![Housing Price Prediction](03-Deep-Learning-Projects/03-Time-Series-Projects/01-Time-Series-Basics/_page_2_Figure_0.jpeg)
+- University Admission Classification
+- Additional classification projects
+
+#### Unsupervised Learning
+- Clustering Analysis
+  ![Clustering Analysis](03-Deep-Learning-Projects/03-Time-Series-Projects/01-Time-Series-Basics/_page_3_Figure_2.jpeg)
+- Movie Recommender System (Collaborative Filtering)
+
+#### Advanced Algorithms
+- Neural Network Implementation
+  ![Neural Network Training](03-Deep-Learning-Projects/03-Time-Series-Projects/02-Weather-Forecasting-DNN/_page_11_Figure_0.jpeg)
+- Deep Learning Foundations
 
 ### 3. Deep Learning Projects
-- Computer Vision
-  - Sign Language Recognition using CNNs
-  - Image Classification Projects
+Practical implementations focusing on:
+- Computer Vision Applications
+  ![Fashion MNIST](04-Advanced-TensorFlow/02-Mobile-ML-Applications/fashion-mnist-tflite/_page_7_Picture_1.jpeg)
 - Natural Language Processing
-  - Text Classification
-  - Sequence Models
+  ![NLP Results](03-Deep-Learning-Projects/02-NLP-Projects/02-Sentiment-Analysis-IMDB/_page_15_Figure_2.jpeg)
 - Time Series Analysis
-  - Forecasting Projects
-  - Sequence Prediction
+  ![Time Series Forecasting](03-Deep-Learning-Projects/03-Time-Series-Projects/04-Real-Time-Forecasting/_page_2_Figure_1.jpeg)
 
-### 4. Advanced TensorFlow Applications
-- Browser-based Models (TensorFlow.js)
-- Mobile Deployment (TensorFlow Lite)
-- Data Pipeline Optimization
-- Advanced Deployment Scenarios
+### 4. Advanced TensorFlow
+Production-ready implementations using:
+- TensorFlow.js for browser deployment
+- TensorFlow Lite for mobile applications
+  ![Transfer Learning](03-Deep-Learning-Projects/00-TensorFlow-Fundamentals/TF-4-Transfer-Learning/_page_1_Picture_2.jpeg)
+- Optimized data pipelines
+- Advanced deployment scenarios
 
-### 5. Learning
-- Key Concepts Mastered
-- Technical Challenges Overcome
-- Real-world Applications
-- Aerospace Engineering Applications
+## Technical Stack
+- **Core**: Python, TensorFlow, NumPy, Pandas
+- **Visualization**: Matplotlib, Seaborn
+- **Development**: Git, Unit Testing
+- **Deployment**: TensorFlow Serving, TF.js, TF Lite
 
-## Skills
-- TensorFlow & Keras
-- Data Preprocessing & Analysis
-- Model Development & Optimization
-- Production Deployment
-- Mathematical Foundations
-
-## Documentation
-Each project includes:
-- Problem Statement
-- Dataset Description
-- Methodology
-- Implementation Details
-- Results & Analysis
-- Real-world Applications
-- Code Documentation
+## Project Structure
+Each implementation follows:
+```
+project/
+├── src/
+│   ├── core/       # Core algorithms
+│   ├── data/       # Data handling
+│   ├── training/   # Training loops
+│   └── utils/      # Helper functions
+├── tests/          # Unit tests
+├── requirements.txt
+└── README.md
+```
 
 ## Links & Certificates
 ### 1. [Mathematics for ML and Data Science](https://www.coursera.org/specializations/mathematics-for-machine-learning-and-data-science)
@@ -82,6 +88,7 @@ Each project includes:
 - [Advanced Learning Algorithms](https://coursera.org/share/f628df67e277143aa033b3d229c98e76)
 - [Unsupervised Learning, Recommenders, Reinforcement Learning](https://coursera.org/share/ae3a3feb59960a9ba2d3ab880b1fb073)
 
+
 ### 5. [DeepLearning.AI TensorFlow Developer](https://www.coursera.org/specializations/tensorflow-in-practice)
 - [Introduction to TensorFlow for Artificil Intelligence, Machine Learning, and Deep learning](https://coursera.org/share/950244b3d15319b4fec4928fa60fcb1a)
 - [Convolutional Neural Networks in TensorFlow](https://coursera.org/share/1cfb5a35414f51f69f36db2362e4d3df)
@@ -93,10 +100,3 @@ Each project includes:
 - [Device-based Models with TensorFlow Lite](https://www.coursera.org/account/accomplishments/certificate/9PP6ZX5NLB5A)
 - [Data Pipelines with TensorFlow Data Services](https://www.coursera.org/account/accomplishments/certificate/P85F6WQVJSAX)
 - [Advanced Deployment Scenarios with TensorFlow](https://www.coursera.org/account/accomplishments/certificate/T5A47V9G5MCX)
-
-## Specialization Certificates
-[Mathematics for ML and Data Science](https://coursera.org/share/ca04fdc201680d60d09b6fc1af929231) - 
-[Google Data Analytics](https://www.coursera.org/account/accomplishments/professional-cert/4K9UPK7ZFX77) - 
-[Machine Learning Specialization](https://coursera.org/share/fa5a67fea09894f41349409b17d4dee9) - 
-[DeepLearning.AI TensorFlow Developer](https://coursera.org/share/896bb3a1a5af80a07907191aa7fea30f) - 
-[TensorFlow: Data and Deployment](https://coursera.org/share/852d324b25e8c5a62c363677d5b2dda9) - 
