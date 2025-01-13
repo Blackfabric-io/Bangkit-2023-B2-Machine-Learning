@@ -1,0 +1,193 @@
+:root {
+    --primary-color: #4CAF50;
+    --secondary-color: #2E7D32;
+    --accent-color: #81C784;
+    --text-color: #212121;
+    --background-color: #F5F5F5;
+    --error-color: #D32F2F;
+    --success-color: #388E3C;
+    --shadow-color: rgba(0, 0, 0, 0.1);
+}
+
+body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px var(--shadow-color);
+}
+
+h1, h2, h3 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.description {
+    text-align: center;
+    color: #666;
+    margin-bottom: 2rem;
+}
+
+.input-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.file-label {
+    display: block;
+    padding: 12px;
+    background: var(--accent-color);
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.file-label:hover {
+    background: var(--primary-color);
+}
+
+input[type="file"] {
+    display: none;
+}
+
+button {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.primary-button {
+    background: var(--primary-color);
+    color: white;
+}
+
+.secondary-button {
+    background: var(--secondary-color);
+    color: white;
+}
+
+.action-button {
+    background: var(--accent-color);
+    color: white;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+button:hover:not(:disabled) {
+    transform: translateY(-2px);
+    box-shadow: 0 2px 4px var(--shadow-color);
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.canvas-container {
+    position: relative;
+    margin: 1rem 0;
+}
+
+#imagePreview {
+    width: 100%;
+    max-height: 400px;
+    object-fit: contain;
+    border: 2px solid #eee;
+    border-radius: 8px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.overlay.active {
+    display: flex;
+}
+
+#webcam {
+    width: 100%;
+    border-radius: 8px;
+    display: none;
+}
+
+.results-section {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    background: #f8f9fa;
+    border-radius: 8px;
+}
+
+.predictions-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.prediction-item {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    padding: 0.5rem;
+    background: white;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px var(--shadow-color);
+}
+
+.confidence-bar {
+    height: 24px;
+    background: linear-gradient(to right, var(--primary-color), var(--accent-color));
+    border-radius: 12px;
+    transition: width 0.6s ease-out;
+}
+
+.info-section {
+    margin-top: 2rem;
+    padding: 1rem;
+    background: #f1f8e9;
+    border-radius: 8px;
+}
+
+.info-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.info-section li {
+    margin: 0.5rem 0;
+    padding-left: 1.5rem;
+    position: relative;
+}
+
+.info-section li::before {
+    content: "•";
+    color: var(--primary-color);
+    position: absolute;
+    left: 0;
+} 

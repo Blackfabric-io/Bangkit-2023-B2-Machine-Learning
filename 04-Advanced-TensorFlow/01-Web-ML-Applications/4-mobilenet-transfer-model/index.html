@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MobileNet Transfer Learning</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.13.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/mobilenet@1.0.0"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>MobileNet Transfer Learning</h1>
+        <p class="description">Advanced image classification using MobileNet with transfer learning and fine-tuning</p>
+        
+        <div class="model-controls">
+            <div class="model-selector">
+                <label for="modelType">Model Type:</label>
+                <select id="modelType">
+                    <option value="mobilenet">MobileNet Base</option>
+                    <option value="custom">Fine-tuned Model</option>
+                </select>
+            </div>
+            <div class="layer-selector">
+                <label for="layerName">Feature Layer:</label>
+                <select id="layerName" disabled>
+                    <option value="conv_pw_13_relu">conv_pw_13_relu</option>
+                    <option value="conv_pw_12_relu">conv_pw_12_relu</option>
+                    <option value="conv_pw_11_relu">conv_pw_11_relu</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="input-section">
+            <div class="upload-section">
+                <label for="imageUpload" class="file-label">
+                    Choose Image
+                    <input type="file" id="imageUpload" accept="image/*" aria-label="Upload image for classification">
+                </label>
+                <button id="uploadBtn" class="primary-button">Upload Image</button>
+            </div>
+            
+            <div class="webcam-section">
+                <button id="webcamBtn" class="secondary-button">Use Webcam</button>
+                <video id="webcam" autoplay playsinline muted></video>
+            </div>
+        </div>
+
+        <div class="preview-section">
+            <div class="canvas-container">
+                <canvas id="imagePreview"></canvas>
+                <div class="overlay" id="processingOverlay">
+                    <div class="spinner"></div>
+                    <span id="statusText">Processing...</span>
+                </div>
+            </div>
+            <button id="classifyBtn" class="action-button" disabled>Classify Image</button>
+        </div>
+
+        <div class="results-section">
+            <div class="predictions-container">
+                <h2>Classification Results</h2>
+                <div id="predictions"></div>
+            </div>
+            
+            <div class="feature-maps">
+                <h2>Feature Maps</h2>
+                <div class="feature-grid" id="featureMaps"></div>
+            </div>
+
+            <div class="performance-metrics">
+                <h2>Performance Metrics</h2>
+                <div id="metrics">
+                    <div class="metric">
+                        <span>Inference Time:</span>
+                        <span id="inferenceTime">-</span>
+                    </div>
+                    <div class="metric">
+                        <span>Memory Usage:</span>
+                        <span id="memoryUsage">-</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="info-section">
+            <h3>Model Architecture</h3>
+            <ul>
+                <li>Base: MobileNet v1</li>
+                <li>Input: 150x150x3 RGB images</li>
+                <li>Feature Extraction: Multiple convolutional layers</li>
+                <li>Custom Top: Dense layers with fine-tuning</li>
+            </ul>
+        </div>
+    </div>
+    
+    <script src="js/config.js"></script>
+    <script src="js/imageProcessor.js"></script>
+    <script src="js/modelHandler.js"></script>
+    <script src="js/featureVisualizer.js"></script>
+    <script src="js/performanceMonitor.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html> 

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Image Classifier</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.1.0"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Advanced Image Classifier</h1>
+        <p class="description">Multi-class image classification with improved CNN architecture</p>
+        
+        <div class="input-section">
+            <div class="upload-section">
+                <label for="imageUpload" class="file-label">
+                    Choose Image
+                    <input type="file" id="imageUpload" accept="image/*" aria-label="Upload image for classification">
+                </label>
+                <button id="uploadBtn" class="primary-button">Upload Image</button>
+            </div>
+            
+            <div class="webcam-section">
+                <button id="webcamBtn" class="secondary-button">Use Webcam</button>
+                <video id="webcam" autoplay playsinline muted></video>
+            </div>
+        </div>
+
+        <div class="preview-section">
+            <div class="canvas-container">
+                <canvas id="imagePreview"></canvas>
+                <div class="overlay" id="processingOverlay">Processing...</div>
+            </div>
+            <button id="classifyBtn" class="action-button" disabled>Classify Image</button>
+        </div>
+
+        <div class="results-section">
+            <h2>Classification Results</h2>
+            <div id="predictions" class="predictions-container"></div>
+        </div>
+
+        <div class="info-section">
+            <h3>Model Information</h3>
+            <ul>
+                <li>Architecture: CNN with 3 Conv2D layers</li>
+                <li>Classes: 10 categories</li>
+                <li>Input Size: 28x28 pixels</li>
+            </ul>
+        </div>
+    </div>
+    
+    <script src="js/config.js"></script>
+    <script src="js/imageProcessor.js"></script>
+    <script src="js/modelHandler.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html> 
