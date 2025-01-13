@@ -12,34 +12,34 @@ Implementation of core mathematical concepts essential for machine learning:
 ### 2. Machine Learning Projects
 #### Supervised Learning
 - Housing Price Prediction (Linear Regression)
-  ![Housing Price Prediction](03-Deep-Learning-Projects/03-Time-Series-Projects/01-Time-Series-Basics/_page_2_Figure_0.jpeg)
+  ![Housing Price Model Performance](03-Deep-Learning-Projects/03-Time-Series-Projects/01-Time-Series-Basics/Model-Performance-Comparison.jpeg)
 - University Admission Classification
 - Additional classification projects
 
 #### Unsupervised Learning
 - Clustering Analysis
-  ![Clustering Analysis](03-Deep-Learning-Projects/03-Time-Series-Projects/01-Time-Series-Basics/_page_3_Figure_2.jpeg)
+  ![Data Visualization](03-Deep-Learning-Projects/03-Time-Series-Projects/01-Time-Series-Basics/Training-Data-Visualization.jpeg)
 - Movie Recommender System (Collaborative Filtering)
 
 #### Advanced Algorithms
 - Neural Network Implementation
-  ![Neural Network Training](03-Deep-Learning-Projects/03-Time-Series-Projects/02-Weather-Forecasting-DNN/_page_11_Figure_0.jpeg)
+  ![Final Results](03-Deep-Learning-Projects/03-Time-Series-Projects/01-Time-Series-Basics/Final-Forecast-Evaluation.jpeg)
 - Deep Learning Foundations
 
 ### 3. Deep Learning Projects
 Practical implementations focusing on:
 - Computer Vision Applications
-  ![Fashion MNIST](04-Advanced-TensorFlow/02-Mobile-ML-Applications/fashion-mnist-tflite/_page_7_Picture_1.jpeg)
+  ![Fashion MNIST Samples](04-Advanced-TensorFlow/02-Mobile-ML-Applications/fashion-mnist-tflite/Fashion-MNIST-Sample-Images.jpeg)
 - Natural Language Processing
-  ![NLP Results](03-Deep-Learning-Projects/02-NLP-Projects/02-Sentiment-Analysis-IMDB/_page_15_Figure_2.jpeg)
+  ![Time Series Data](03-Deep-Learning-Projects/03-Time-Series-Projects/01-Time-Series-Basics/Time-Series-Data-Visualization.jpeg)
 - Time Series Analysis
-  ![Time Series Forecasting](03-Deep-Learning-Projects/03-Time-Series-Projects/04-Real-Time-Forecasting/_page_2_Figure_1.jpeg)
+  ![Moving Average Results](03-Deep-Learning-Projects/03-Time-Series-Projects/01-Time-Series-Basics/Moving-Average-Results.jpeg)
 
 ### 4. Advanced TensorFlow
 Production-ready implementations using:
 - TensorFlow.js for browser deployment
 - TensorFlow Lite for mobile applications
-  ![Transfer Learning](03-Deep-Learning-Projects/00-TensorFlow-Fundamentals/TF-4-Transfer-Learning/_page_1_Picture_2.jpeg)
+  ![Validation Results](03-Deep-Learning-Projects/03-Time-Series-Projects/01-Time-Series-Basics/Validation-Data-Visualization.jpeg)
 - Optimized data pipelines
 - Advanced deployment scenarios
 
