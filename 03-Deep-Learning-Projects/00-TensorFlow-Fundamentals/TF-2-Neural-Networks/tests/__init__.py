@@ -1,0 +1,1 @@
+"""Test suite for the MNIST digit classification package.""" 

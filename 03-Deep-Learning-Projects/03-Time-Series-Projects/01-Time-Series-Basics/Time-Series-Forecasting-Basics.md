@@ -394,7 +394,8 @@ moving average forecast with diff series plus past has shape: (361,)
 
 comparable with validation series: True
 
-*# Compute evaluation metrics* mse, mae = compute_metrics(series_valid, diff_moving_avg_plus_smooth_past)
+*# Compute evaluation metrics* 
+mse, mae = compute_metrics(series_valid, diff_moving_avg_plus_smooth_past)
 
 print(f"mse: {mse:.2f}, mae: {mae:.2f} for moving average plus smooth past forecast")
 
